@@ -10,6 +10,7 @@ eleventyComputed:
     title: "{{ tag }} - theabdullahalam.com"
 ---
 {% set taglist = collections[ tag ] %}
+<h1><i class="fa-solid fa-tag"></i> {{ tag }}</h1>
 <div class="post-list">
     {% for post in taglist | reverse %}
         {% if post.data.tags and 'post' in post.data.tags %}
@@ -19,6 +20,7 @@ eleventyComputed:
                 {% endif %}
                 <h2>{{ post.data.title }}</h2>
                 <p class="date">{{ post.date }}</p>
+                <p class="body">{{ post.data.excerpt }}</p>
             </a>
         {% endif %}
     {% endfor %}

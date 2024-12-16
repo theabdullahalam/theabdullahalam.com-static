@@ -12,8 +12,7 @@ stylesheet: "/static/css/post.css"
         <h1>{{ title }}</h1>
     </div>
     <div class="dates">
-        <p class="date">Created: {{ page.date }}</p>
-        {# <p class="date">Modified: {{ post.modified|date:'F j, Y' }}</p> #}
+        <p class="date">{{ page.date | toReadableDate }}</p>
     </div>
     <div class="main-content">
 {{ content | safe }}

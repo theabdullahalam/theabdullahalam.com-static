@@ -1,9 +1,10 @@
 ---
 title: Wonka - Delightful Portrayal of Healthy Masculinity
-tags: ['post', 'masculinity', 'film', 'toxic masculinity']
+tags: ['post', 'masculinity', 'film']
 layout: post
 permalink: "/post/{{ title | slugify }}/"
 header_image: "/media/headers/wonka.png"
+date: 2023-12-15
 ---
 
 Popular media today has plenty examples of toxic masculinity as well as

@@ -1,3 +1,30 @@
-body {
-    color: tomato;
+@import "vars.scss";
+
+img {
+    max-width: 100%;
+}
+
+.bio {
+    width: 50%;
+}
+
+.popular-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 50%;
+
+    a.tag {
+        text-decoration: none;
+        color: $theme_green;
+        border: 1px solid $theme_green;
+        padding: 0.5rem;
+
+        &:hover {
+            background-color: $theme_green;
+            color: rgba(0, 0, 0, 0.788);
+            transition: all 0.1s ease;
+        }
+    }
 }

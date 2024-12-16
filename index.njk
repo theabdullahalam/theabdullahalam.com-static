@@ -1,0 +1,25 @@
+---
+title: Home - Abdullah Alam
+layout: base
+stylesheet: "/static/css/index.css"
+---
+
+<h1>Hi, I'm Abdullah.</h1>
+<p class="bio">Welcome to my corner of the internet. I like to build simple things, and this website is one of them. Here are some things I write about:</p>
+
+
+<div class="popular-tags">
+    {% for _tag in collections.popularTags %}
+        {# {% if _tag not in ['all', 'post'] %} #}
+            <a href="/posts/{{ _tag | slugify }}/" class="tag">{{ _tag }}</a>
+        {# {% endif %} #}
+    {% endfor %}
+</div>
+
+
+{# {% for post in collections.post | reverse %}
+    <a href="{{ post.url }}" class="post">
+        <h2>{{ post.data.title }}</h2>
+        <p class="date">{{ post.date }}</p>
+    </a>
+{% endfor %} #}

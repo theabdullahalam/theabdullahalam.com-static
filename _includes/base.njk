@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="{{ stylesheet }}">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
-<body class="override">
+<body>
     <!-- the everything div is so that all the content can be centered in the page but everything insie is left aligned -->
     <div class="everything">
         <div class="header">
@@ -29,7 +30,7 @@
             </div>
 
             <div class="tags">
-                {% for _tag, posts in collections %}
+                {% for _tag in collections.postTags %}
                     {% if _tag not in ['all', 'post'] %}
                         {% if tags %}
                             <a 

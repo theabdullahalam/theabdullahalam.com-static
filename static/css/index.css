@@ -1,5 +1,32 @@
-body {
-  color: tomato;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+img {
+  max-width: 100%;
+}
+
+.bio {
+  width: 50%;
+}
+
+.popular-tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 50%;
+}
+.popular-tags a.tag {
+  text-decoration: none;
+  color: #8ba2c6;
+  border: 1px solid #8ba2c6;
+  padding: 0.5rem;
+}
+.popular-tags a.tag:hover {
+  background-color: #8ba2c6;
+  color: rgba(0, 0, 0, 0.788);
+  transition: all 0.1s ease;
 }
 
 /*# sourceMappingURL=index.css.map */
