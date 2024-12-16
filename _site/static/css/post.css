@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+.post .heading .header-image {
+  margin-bottom: 2rem;
+  width: 100%;
+  height: auto;
+}
+.post .heading h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.post .dates {
+  margin-top: -4px;
+}
+.post .main-content {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
+.post .main-content p {
+  margin-bottom: 1.8rem;
+  line-height: 1.5rem;
+  font-family: "Outfit", sans-serif;
+}
+.post .main-content img {
+  max-width: 100%;
+  max-height: 95vh;
+}
+.post .main-content a {
+  color: #8ba2c6;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=post.css.map */

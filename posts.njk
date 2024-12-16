@@ -1,0 +1,25 @@
+---
+layout: base
+pagination:
+    data: collections
+    size: 1
+    alias: tag
+permalink: "/posts/{{ tag | slugify }}/"
+stylesheet: "/static/css/posts.css"
+eleventyComputed:
+    title: "{{ tag }} - theabdullahalam.com"
+---
+{% set taglist = collections[ tag ] %}
+<div class="post-list">
+    {% for post in taglist | reverse %}
+        {% if post.data.tags and 'post' in post.data.tags %}
+            <a href="{{ post.url }}" class="post">
+                {% if post.data.header_image %}
+                    <img src="{{ post.data.header_image }}" alt="{{ post.data.title }}" class="header-image"/>
+                {% endif %}
+                <h2>{{ post.data.title }}</h2>
+                <p class="date">{{ post.date }}</p>
+            </a>
+        {% endif %}
+    {% endfor %}
+</div>

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.post-list .post {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto 1fr;
+  grid-template-areas: "image title" "image date" "image body";
+  color: rgba(240, 240, 240, 0.7333333333);
+  padding: 1rem;
+  margin-left: -1rem;
+  border-radius: 0.2rem;
+  outline: 3px solid transparent;
+  transition: all 0.5s ease;
+}
+@media screen and (max-width: 700px) {
+  .post-list .post {
+    margin-right: -1rem;
+    border-radius: 0;
+  }
+}
+.post-list .post:hover {
+  outline: 3px solid #8ba2c6;
+  box-sizing: border-box;
+  transition: all 0.1s ease;
+}
+@media screen and (max-width: 700px) {
+  .post-list .post:hover {
+    box-sizing: border-box;
+  }
+}
+.post-list .post .header-image {
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  grid-area: image;
+}
+.post-list .post h2 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-bottom: 0;
+  margin-top: 0rem;
+  font-weight: normal;
+  grid-area: title;
+}
+.post-list .post .date {
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  color: rgba(240, 240, 240, 0.3294117647);
+  margin-top: 0;
+  padding-bottom: 0.5rem;
+  grid-area: date;
+}
+.post-list .post .body {
+  grid-area: body;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=posts.css.map */

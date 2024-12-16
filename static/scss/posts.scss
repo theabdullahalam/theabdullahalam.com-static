@@ -1,0 +1,83 @@
+@import "vars.scss";
+
+// .posts {
+
+.post-list {
+
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    
+    .post {
+
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto auto 1fr;
+        grid-template-areas: "image title"
+                                "image date"
+                                "image body";
+        color: $text_color;
+        padding: 1rem;
+        margin-left: -1rem;
+
+        border-radius: 0.2rem;
+        outline: 3px solid transparent;
+        transition: all 0.5s ease;
+
+        @media screen and (max-width: 700px) {
+            margin-right: -1rem;
+            border-radius: 0;
+        }
+        
+        &:hover {
+            outline: 3px solid $theme_green;
+            box-sizing: border-box;
+            transition: all 0.1s ease;
+
+            @media screen and (max-width: 700px) {
+                box-sizing: border-box;
+            }
+        }
+        
+        .header-image {
+            width: 8rem;
+            height: 8rem;
+            object-fit: cover;
+            border-radius: 0.5rem;
+            margin-right: 1rem;
+
+            grid-area: image;
+
+        }
+
+        h2 {
+            font-size: 2rem;
+            line-height: 2.4rem;
+            margin-bottom: 0;
+            margin-top: 0rem;
+            font-weight: normal;
+
+            grid-area: title;
+        }
+
+        .date {
+            font-family: "Inter", sans-serif;
+            font-size: 0.8rem;
+            color: $date_color;
+            margin-top: 0;
+            // padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+
+            grid-area: date;
+        }
+
+        .body {
+            grid-area: body;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+    }
+}
+
+// }

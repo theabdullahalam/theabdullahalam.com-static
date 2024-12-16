@@ -1,0 +1,21 @@
+---
+layout: base
+title: "Abdullah Alam"
+stylesheet: "/static/css/post.css"
+---
+
+<div class="post">
+    <div class="heading">
+        {% if header_image %}
+          <img src="{{ header_image }}" alt="{{ title }}" class="header-image"/>
+        {% endif %}
+        <h1>{{ title }}</h1>
+    </div>
+    <div class="dates">
+        <p class="date">Created: {{ page.date }}</p>
+        {# <p class="date">Modified: {{ post.modified|date:'F j, Y' }}</p> #}
+    </div>
+    <div class="main-content">
+{{ content | safe }}
+    </div>
+</div>

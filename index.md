@@ -1,5 +1,5 @@
 ---
+title: Home - Abdullah Alam
 layout: index
-title: Home
 ---
-# Oh hi there!
+# Placeholder content
