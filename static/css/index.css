@@ -19,12 +19,12 @@ img {
 }
 .popular-tags a.tag {
   text-decoration: none;
-  color: #8ba2c6;
-  border: 1px solid #8ba2c6;
+  color: #7da766;
+  border: 1px solid #7da766;
   padding: 0.5rem;
 }
 .popular-tags a.tag:hover {
-  background-color: #8ba2c6;
+  background-color: #7da766;
   color: rgba(0, 0, 0, 0.788);
   transition: all 0.1s ease;
 }

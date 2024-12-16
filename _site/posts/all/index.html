@@ -8,8 +8,26 @@
     <link rel="stylesheet" href="/static/css/base.css">
     <link rel="stylesheet" href="/static/css/posts.css">
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+    />
+
+    
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/obsidian.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.css"
+    />
+
     
 </head>
 <body>
@@ -18,7 +36,8 @@
         <div class="header">
             <a href="/"><img src="/static/img/favicon.png" class="site-logo" /></a>
             <a href="/"><h1 class="site-title">theabdullahalam.com</h1></a>
-            <button onclick="toggleSidebar()" class="toggle-sidebar">go to...</button>
+            <i class="fa-solid fa-circle-half-stroke dark-mode-toggle"></i>
+            <button onclick="toggleSidebar()" class="toggle-sidebar"><i class="fa-solid fa-bars"></i></button>
         </div>
         <div class="content">
             
@@ -27,10 +46,68 @@
 <div class="post-list">
     
         
-            <a href="/post/amelie/" class="post">
+    
+        
+            <a href="/post/convert-natural-language-time-to-python-datetime/" class="post">
                 
-                <h2>Amelie</h2>
-                <p class="date">Sun Dec 15 2024 22:37:01 GMT-0500 (Eastern Standard Time)</p>
+                <h2>Convert Natural Language Time to Python Datetime</h2>
+                <p class="date">16 December, 2024</p>
+                <p class="body"></p>
+            </a>
+        
+    
+        
+            <a href="/post/bliss-you-are-being-missed/" class="post">
+                
+                <h2>Bliss You Are Being Missed</h2>
+                <p class="date">16 December, 2024</p>
+                <p class="body"></p>
+            </a>
+        
+    
+        
+            <a href="/post/better-a-work-in-progress/" class="post">
+                
+                <h2>better a work in progress</h2>
+                <p class="date">16 December, 2024</p>
+                <p class="body"></p>
+            </a>
+        
+    
+        
+            <a href="/post/aazaadi/" class="post">
+                
+                <h2>Aazaadi</h2>
+                <p class="date">16 December, 2024</p>
+                <p class="body"></p>
+            </a>
+        
+    
+        
+            <a href="/post/aaftaab-the-local-train-lyrics-poetic-translation/" class="post">
+                
+                <h2>Aaftaab - The Local Train - Lyrics Poetic Translation</h2>
+                <p class="date">16 December, 2024</p>
+                <p class="body"></p>
+            </a>
+        
+    
+        
+    
+        
+            <a href="/post/quotes/" class="post">
+                
+                <h2>Quotes</h2>
+                <p class="date">16 December, 2024</p>
+                <p class="body"></p>
+            </a>
+        
+    
+        
+            <a href="/post/a-posthumous-sorrow/" class="post">
+                
+                <h2>A Posthumous Sorrow</h2>
+                <p class="date">16 December, 2024</p>
                 <p class="body"></p>
             </a>
         
@@ -41,7 +118,7 @@
                     <img src="/media/headers/total_eclipse_2024.jpg" alt="The Experience of a Total Solar Eclipse" class="header-image"/>
                 
                 <h2>The Experience of a Total Solar Eclipse</h2>
-                <p class="date">Sun Dec 15 2024 19:40:40 GMT-0500 (Eastern Standard Time)</p>
+                <p class="date">16 December, 2024</p>
                 <p class="body">A short essay on the experience of witnessing a total solar eclipse</p>
             </a>
         
@@ -58,7 +135,7 @@
                     <img src="/media/headers/wonka.png" alt="Wonka - Delightful Portrayal of Healthy Masculinity" class="header-image"/>
                 
                 <h2>Wonka - Delightful Portrayal of Healthy Masculinity</h2>
-                <p class="date">Thu Dec 14 2023 19:00:00 GMT-0500 (Eastern Standard Time)</p>
+                <p class="date">15 December, 2023</p>
                 <p class="body"></p>
             </a>
         
@@ -86,10 +163,21 @@
                     
                         
                             <a 
-                                href="/posts/eclipse/" 
+                                href="/posts/code/" 
                                 class="nav-link "
                             >
-                                eclipse
+                                code
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/english-poetry/" 
+                                class="nav-link "
+                            >
+                                english poetry
                             </a>
                         
                     
@@ -119,6 +207,17 @@
                     
                         
                             <a 
+                                href="/posts/guides/" 
+                                class="nav-link "
+                            >
+                                guides
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
                                 href="/posts/masculinity/" 
                                 class="nav-link "
                             >
@@ -127,6 +226,61 @@
                         
                     
                 
+                    
+                        
+                            <a 
+                                href="/posts/music/" 
+                                class="nav-link "
+                            >
+                                music
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/poetry/" 
+                                class="nav-link "
+                            >
+                                poetry
+                            </a>
+                        
+                    
+                
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/python/" 
+                                class="nav-link "
+                            >
+                                python
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/reference/" 
+                                class="nav-link "
+                            >
+                                reference
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/urdu-poetry/" 
+                                class="nav-link "
+                            >
+                                urdu poetry
+                            </a>
+                        
                     
                 
             </div>
@@ -137,5 +291,10 @@
     </div>
     
     <script src="/static/js/sidebar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.0/languages/python.min.js"></script>
+    <script>
+        hljs.addPlugin(new CopyButtonPlugin());
+        hljs.highlightAll();
+    </script>
 </body>
 </html>

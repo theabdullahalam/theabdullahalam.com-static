@@ -7,7 +7,7 @@ body {
     background-color: #141414;
 
     padding: 2rem;
-    margin-left: 15%;
+    margin-left: 10%;
     color: $text_color;
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@ body {
         .site-logo {
             width: 2rem;
             height: 2rem;
-            filter: brightness(1.5) hue-rotate(120deg);
+            filter: brightness(1.5);
             border: none;
             padding-top: 2px;
             padding-left: 6px;
@@ -73,16 +73,27 @@ body {
             margin-left: -8px;
         }
 
+        .dark-mode-toggle {
+            margin-left: auto;
+            cursor: pointer;
+
+            &:hover {
+                color: $theme_green;
+            }
+        }
+
         .toggle-sidebar {
 
             display: none;
 
             @media screen and (max-width: 700px) {
                 display: block;
-                margin-left: auto;
+                // margin-left: auto;
+                margin-top: 4px;
                 background: none;
                 border: none;
-                color: $headings_color;
+                color: $text_color;
+                font-size: 1.2rem;
                 margin-bottom: 2px;
                 font-family: $content_font;
                 font-weight: bold;

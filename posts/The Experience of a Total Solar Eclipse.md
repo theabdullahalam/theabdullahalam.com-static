@@ -1,6 +1,6 @@
 ---
 title: The Experience of a Total Solar Eclipse
-tags: ['post', 'essay', 'eclipse', 'astronomy']
+tags: ['post', 'essay', 'astronomy']
 layout: post
 permalink: "/post/{{ title | slugify }}/"
 header_image: "/media/headers/total_eclipse_2024.jpg"

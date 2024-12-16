@@ -4,5 +4,3 @@ tags: []
 layout: post
 permalink: "/post/{{ title | slugify }}/"
 ---
-
-Hello everyone!

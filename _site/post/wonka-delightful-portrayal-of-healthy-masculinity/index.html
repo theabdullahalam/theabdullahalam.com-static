@@ -8,8 +8,26 @@
     <link rel="stylesheet" href="/static/css/base.css">
     <link rel="stylesheet" href="/static/css/post.css">
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+    />
+
+    
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/obsidian.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.css"
+    />
+
     
 </head>
 <body>
@@ -18,7 +36,8 @@
         <div class="header">
             <a href="/"><img src="/static/img/favicon.png" class="site-logo" /></a>
             <a href="/"><h1 class="site-title">theabdullahalam.com</h1></a>
-            <button onclick="toggleSidebar()" class="toggle-sidebar">go to...</button>
+            <i class="fa-solid fa-circle-half-stroke dark-mode-toggle"></i>
+            <button onclick="toggleSidebar()" class="toggle-sidebar"><i class="fa-solid fa-bars"></i></button>
         </div>
         <div class="content">
             
@@ -82,6 +101,28 @@ co-existence can actually be a strength if nurtured and expressed well.</p>
     </div>
 </div>
 
+<div class="related">
+    <h2>Related</h2>
+     
+
+    
+        
+    
+        
+            
+                
+            
+        
+    
+        
+            
+                
+            
+        
+    
+</div>
+
+
         </div>
         <div class="sidebar" id="sidebar">
             <div class="persistent">
@@ -104,10 +145,21 @@ co-existence can actually be a strength if nurtured and expressed well.</p>
                     
                         
                             <a 
-                                href="/posts/eclipse/" 
+                                href="/posts/code/" 
                                 class="nav-link "
                             >
-                                eclipse
+                                code
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/english-poetry/" 
+                                class="nav-link "
+                            >
+                                english poetry
                             </a>
                         
                     
@@ -137,6 +189,17 @@ co-existence can actually be a strength if nurtured and expressed well.</p>
                     
                         
                             <a 
+                                href="/posts/guides/" 
+                                class="nav-link "
+                            >
+                                guides
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
                                 href="/posts/masculinity/" 
                                 class="nav-link selected"
                             >
@@ -145,6 +208,61 @@ co-existence can actually be a strength if nurtured and expressed well.</p>
                         
                     
                 
+                    
+                        
+                            <a 
+                                href="/posts/music/" 
+                                class="nav-link "
+                            >
+                                music
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/poetry/" 
+                                class="nav-link "
+                            >
+                                poetry
+                            </a>
+                        
+                    
+                
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/python/" 
+                                class="nav-link "
+                            >
+                                python
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/reference/" 
+                                class="nav-link "
+                            >
+                                reference
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/urdu-poetry/" 
+                                class="nav-link "
+                            >
+                                urdu poetry
+                            </a>
+                        
                     
                 
             </div>
@@ -155,5 +273,10 @@ co-existence can actually be a strength if nurtured and expressed well.</p>
     </div>
     
     <script src="/static/js/sidebar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.0/languages/python.min.js"></script>
+    <script>
+        hljs.addPlugin(new CopyButtonPlugin());
+        hljs.highlightAll();
+    </script>
 </body>
 </html>

@@ -3,6 +3,9 @@
 
 
 .post {
+
+    margin-top: -4px;
+
     .heading {
         .header-image {
             // max-width: 90vw;
@@ -46,6 +49,28 @@
         a {
             color: $theme_green;
             text-decoration: none;
+        }
+
+        blockquote {
+            background: rgb(49, 49, 49);
+            margin-left: 0;
+            padding: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            font-family: "Outfit", sans-serif;
+        }
+
+        code {
+            font-size: 0.8rem;
+        }
+
+        code:not([class]) {
+            font-size: 1rem;
+            background: rgb(41, 41, 41);
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 4px;
+            padding-bottom: 4px;
         }
     }
 }

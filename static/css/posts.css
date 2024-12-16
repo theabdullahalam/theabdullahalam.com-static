@@ -6,7 +6,7 @@ body h1 {
   font-size: 4rem;
   margin-top: -6px;
   padding-bottom: 1rem;
-  color: #8ba2c6;
+  color: #7da766;
 }
 
 .post-list {
@@ -33,7 +33,7 @@ body h1 {
   }
 }
 .post-list .post:hover {
-  outline: 3px solid #8ba2c6;
+  outline: 3px solid #7da766;
   box-sizing: border-box;
   transition: all 0.1s ease;
 }

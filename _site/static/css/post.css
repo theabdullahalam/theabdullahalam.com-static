@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+.post {
+  margin-top: -4px;
+}
 .post .heading .header-image {
   margin-bottom: 2rem;
   width: 100%;
@@ -30,8 +33,27 @@
   max-height: 95vh;
 }
 .post .main-content a {
-  color: #8ba2c6;
+  color: #7da766;
   text-decoration: none;
+}
+.post .main-content blockquote {
+  background: rgb(49, 49, 49);
+  margin-left: 0;
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-family: "Outfit", sans-serif;
+}
+.post .main-content code {
+  font-size: 0.8rem;
+}
+.post .main-content code:not([class]) {
+  font-size: 1rem;
+  background: rgb(41, 41, 41);
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 /*# sourceMappingURL=post.css.map */
