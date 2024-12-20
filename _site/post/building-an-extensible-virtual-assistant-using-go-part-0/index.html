@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building an extensible Virtual Assistant using Go - Part 0</title>
+    
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/post.css">
+    
+    
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+    />
+
+    
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/obsidian.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.css"
+    />
+
+    
+</head>
+<body>
+    <!-- the everything div is so that all the content can be centered in the page but everything insie is left aligned -->
+    <div class="everything">
+        <div class="header">
+            <a href="/"><img src="/static/img/favicon.png" class="site-logo" /></a>
+            <a href="/"><h1 class="site-title">theabdullahalam.com</h1></a>
+            <i class="fa-solid fa-circle-half-stroke dark-mode-toggle" id="light-mode-toggle"></i>
+            <button onclick="toggleSidebar()" class="toggle-sidebar"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <div class="content">
+            
+            
+<div class="post">
+    <div class="heading">
+        
+        <h1>Building an extensible Virtual Assistant using Go - Part 0</h1>
+    </div>
+    <div class="dates">
+        <p class="date">17 December, 2024</p>
+    </div>
+    <div class="main-content">
+<p>It's been a while since I learnt a new programming language, but recently, golang caught my attention. The idea of a C-style relatively lower level language that is easy to compile and run on any platform, that builds to a single binary that can be deployed anywhere, sounds quite appealing.</p>
+<p>So, to learn this language, I am picking up a project I've been meaning to build for the longest time, and finally make it using <strong>go.</strong> It is a project that involves networking, http servers, reading/writing to files, etc. Depending on how the project goes, I might also have to use an sqlite database. All in all, it should give me a good understanding of the language and a (mostly) finished project at the end.</p>
+<blockquote>
+<p><em>Note: This series is not a detailed tutorial. It is a literal coding blog - a blog about the processes going behind learning a new language by building a huge project with it. I already have experience with other languages, so I know what to look for and where. In this series I will document my process and my thoughts on the different things I learn on the way.</em></p>
+</blockquote>
+<h2>So what are we building?</h2>
+<p>A virtual assistant using go. Goals:</p>
+<ul>
+<li>Omnipresent: I should be able to interact with any of my devices and the assistant should feel like it lives across devices, like jarvis.</li>
+<li>Decentralized: Every device should work regardless of the rest of them being online. No central server.</li>
+<li>Modular: Different devices can have different things the assistant can do, and communicating with the assistant through any device should allow it to do anything on any device appropriately. These can be scripts on desktops/servers, Tasker actions on Android.</li>
+<li>Self hostable: Whatever hosted services the assistant needs (messaging protocols, LLMs) should be self-hostable, so the stack isn't dependent on a single major company.</li>
+<li>Open source: this can be a product that the community build on, contributes to, and is transparent and free to use for everyone.</li>
+</ul>
+<h2>Name?</h2>
+<p>Since there is no shortage of virtual assistants out there, this one is going to just be <strong>Another Virtual Assistant,</strong> or, <strong>Ava.</strong></p>
+<h2>Start Here</h2>
+<ul>
+<li>[[Building an extensible Virtual Assistant using Go - Part 1]]</li>
+</ul>
+
+    </div>
+</div>
+
+<div class="related">
+    <h2>Related</h2>
+     
+
+    
+        
+    
+        
+            
+                
+                     
+                    <a href="/post/django-cheatsheet/" class="post">
+                        <h2>Django Cheatsheet</h2>
+                        <p class="date">16 December, 2024</p>
+                    </a>
+                
+            
+                
+            
+                
+                     
+                    <a href="/post/building-an-extensible-virtual-assistant-using-go-part-1/" class="post">
+                        <h2>Building an extensible Virtual Assistant using Go - Part 1</h2>
+                        <p class="date">17 December, 2024</p>
+                    </a>
+                
+            
+                
+                     
+                    <a href="/post/linux-cheatsheet/" class="post">
+                        <h2>Linux Cheatsheet</h2>
+                        <p class="date">20 December, 2024</p>
+                    </a>
+                
+            
+        
+    
+        
+            
+                
+            
+                
+            
+        
+    
+</div>
+
+
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div class="persistent">
+                <a href="/posts/all/" class="nav-link ">all posts</a>
+            </div>
+
+            <div class="tags">
+                
+                    
+                        
+                            <a 
+                                href="/posts/astronomy/" 
+                                class="nav-link "
+                            >
+                                astronomy
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/books/" 
+                                class="nav-link "
+                            >
+                                books
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/cheatsheets/" 
+                                class="nav-link "
+                            >
+                                cheatsheets
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/code/" 
+                                class="nav-link "
+                            >
+                                code
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/dev/" 
+                                class="nav-link selected"
+                            >
+                                dev
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/django/" 
+                                class="nav-link "
+                            >
+                                django
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/english-poetry/" 
+                                class="nav-link "
+                            >
+                                english poetry
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/essay/" 
+                                class="nav-link "
+                            >
+                                essay
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/film/" 
+                                class="nav-link "
+                            >
+                                film
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/golang/" 
+                                class="nav-link selected"
+                            >
+                                golang
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/guides/" 
+                                class="nav-link "
+                            >
+                                guides
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/linux/" 
+                                class="nav-link "
+                            >
+                                linux
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/masculinity/" 
+                                class="nav-link "
+                            >
+                                masculinity
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/music/" 
+                                class="nav-link "
+                            >
+                                music
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/philosophy/" 
+                                class="nav-link "
+                            >
+                                philosophy
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/poetry/" 
+                                class="nav-link "
+                            >
+                                poetry
+                            </a>
+                        
+                    
+                
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/psychology/" 
+                                class="nav-link "
+                            >
+                                psychology
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/python/" 
+                                class="nav-link "
+                            >
+                                python
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/reference/" 
+                                class="nav-link "
+                            >
+                                reference
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/short-stories/" 
+                                class="nav-link "
+                            >
+                                short stories
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/slice-of-life/" 
+                                class="nav-link "
+                            >
+                                slice of life
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/software/" 
+                                class="nav-link "
+                            >
+                                software
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/tech/" 
+                                class="nav-link "
+                            >
+                                tech
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/urdu-poetry/" 
+                                class="nav-link "
+                            >
+                                urdu poetry
+                            </a>
+                        
+                    
+                
+            </div>
+        </div>
+        <div class="footer"></div>
+            
+        </div>
+    </div>
+    
+    <script src="/static/js/sidebar.js"></script>
+    <script src="/static/js/lightmode.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.0/languages/python.min.js"></script>
+    <script>
+        hljs.addPlugin(new CopyButtonPlugin());
+        hljs.highlightAll();
+    </script>
+</body>
+</html>

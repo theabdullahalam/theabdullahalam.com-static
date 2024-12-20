@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Cheatsheet</title>
+    
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/post.css">
+    
+    
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+    />
+
+    
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/obsidian.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.css"
+    />
+
+    
+</head>
+<body>
+    <!-- the everything div is so that all the content can be centered in the page but everything insie is left aligned -->
+    <div class="everything">
+        <div class="header">
+            <a href="/"><img src="/static/img/favicon.png" class="site-logo" /></a>
+            <a href="/"><h1 class="site-title">theabdullahalam.com</h1></a>
+            <i class="fa-solid fa-circle-half-stroke dark-mode-toggle" id="light-mode-toggle"></i>
+            <button onclick="toggleSidebar()" class="toggle-sidebar"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <div class="content">
+            
+            
+<div class="post">
+    <div class="heading">
+        
+        <h1>Linux Cheatsheet</h1>
+    </div>
+    <div class="dates">
+        <p class="date">20 December, 2024</p>
+    </div>
+    <div class="main-content">
+<p>An ever-growing collection of linux shell commands I keep revisiting.</p>
+<h2>open a shell inside docker</h2>
+<pre><code class="language-bash">sudo docker exec -it CONTAINER_ID /bin/bash
+</code></pre>
+<h2>ports in use</h2>
+<p>Check what is running at a particular port (Eg 8080)</p>
+<pre><code class="language-bash">lsof -i :8080
+</code></pre>
+<h2>wget</h2>
+<p>Regular download</p>
+<pre><code class="language-bash">wget &lt;url&gt; -O &lt;destination&gt;
+</code></pre>
+<p>Quieter download</p>
+<pre><code class="language-bash">wget &lt;url&gt; -O &lt;destination&gt; -q --show-progress
+</code></pre>
+<h2>gnome wallpaper</h2>
+<p>To set a wallpaper in gnome. Note: <code>picture-uri</code> for light mode and
+<code>picture-uri-dark</code> for dark mode.</p>
+<pre><code class="language-bash">gsettings set org.gnome.desktop.background picture-uri-dark {uri}
+</code></pre>
+<h2>rsync</h2>
+<pre><code class="language-bash"># simple sync
+rsync -avh --progress /path/to/source /path/to/destination
+
+# sync with compression; useful for large files
+# not good for large quantity of files
+rsync -azzvh --progress /path/to/source /path/to/destination
+
+# ignore folder
+rsync -avh --progress /path/to/source /path/to/destination --exclude /folder/to/ignore
+</code></pre>
+<h2>dual boot EFI fix</h2>
+<p>Sometimes, after dual-booting linux using systemd as the bootloader, the
+machine still boots to Windows by default. To fix this, run the
+following command in <strong>Windows Powershell</strong> as administrator:</p>
+<pre><code class="language-bat">bcdedit /set &quot;{bootmgr}&quot; path &quot;\EFI\systemd\systemd-bootx64.efi&quot;
+</code></pre>
+<h2>chromium based apps: libva error</h2>
+<p>Uninstall <code>libva-vdpau-driver</code></p>
+<h2>install pip requirements one by one</h2>
+<p>Install pip requirements line by line so as to not not install anything
+if just one package fails.</p>
+<pre><code class="language-bash">cat requirements.txt | xargs -n 1 pip install
+</code></pre>
+
+    </div>
+</div>
+
+<div class="related">
+    <h2>Related</h2>
+     
+
+    
+        
+    
+        
+            
+                
+                     
+                    <a href="/post/django-cheatsheet/" class="post">
+                        <h2>Django Cheatsheet</h2>
+                        <p class="date">16 December, 2024</p>
+                    </a>
+                
+            
+                
+            
+        
+    
+        
+            
+                
+            
+        
+    
+        
+            
+                
+            
+                
+                     
+                    <a href="/post/building-an-extensible-virtual-assistant-using-go-part-0/" class="post">
+                        <h2>Building an extensible Virtual Assistant using Go - Part 0</h2>
+                        <p class="date">17 December, 2024</p>
+                    </a>
+                
+            
+                
+                     
+                    <a href="/post/building-an-extensible-virtual-assistant-using-go-part-1/" class="post">
+                        <h2>Building an extensible Virtual Assistant using Go - Part 1</h2>
+                        <p class="date">17 December, 2024</p>
+                    </a>
+                
+            
+                
+            
+        
+    
+</div>
+
+
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div class="persistent">
+                <a href="/posts/all/" class="nav-link ">all posts</a>
+            </div>
+
+            <div class="tags">
+                
+                    
+                        
+                            <a 
+                                href="/posts/astronomy/" 
+                                class="nav-link "
+                            >
+                                astronomy
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/books/" 
+                                class="nav-link "
+                            >
+                                books
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/cheatsheets/" 
+                                class="nav-link selected"
+                            >
+                                cheatsheets
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/code/" 
+                                class="nav-link "
+                            >
+                                code
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/dev/" 
+                                class="nav-link selected"
+                            >
+                                dev
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/django/" 
+                                class="nav-link "
+                            >
+                                django
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/english-poetry/" 
+                                class="nav-link "
+                            >
+                                english poetry
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/essay/" 
+                                class="nav-link "
+                            >
+                                essay
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/film/" 
+                                class="nav-link "
+                            >
+                                film
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/golang/" 
+                                class="nav-link "
+                            >
+                                golang
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/guides/" 
+                                class="nav-link "
+                            >
+                                guides
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/linux/" 
+                                class="nav-link selected"
+                            >
+                                linux
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/masculinity/" 
+                                class="nav-link "
+                            >
+                                masculinity
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/music/" 
+                                class="nav-link "
+                            >
+                                music
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/philosophy/" 
+                                class="nav-link "
+                            >
+                                philosophy
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/poetry/" 
+                                class="nav-link "
+                            >
+                                poetry
+                            </a>
+                        
+                    
+                
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/psychology/" 
+                                class="nav-link "
+                            >
+                                psychology
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/python/" 
+                                class="nav-link "
+                            >
+                                python
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/reference/" 
+                                class="nav-link "
+                            >
+                                reference
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/short-stories/" 
+                                class="nav-link "
+                            >
+                                short stories
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/slice-of-life/" 
+                                class="nav-link "
+                            >
+                                slice of life
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/software/" 
+                                class="nav-link "
+                            >
+                                software
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/tech/" 
+                                class="nav-link "
+                            >
+                                tech
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/urdu-poetry/" 
+                                class="nav-link "
+                            >
+                                urdu poetry
+                            </a>
+                        
+                    
+                
+            </div>
+        </div>
+        <div class="footer"></div>
+            
+        </div>
+    </div>
+    
+    <script src="/static/js/sidebar.js"></script>
+    <script src="/static/js/lightmode.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.0/languages/python.min.js"></script>
+    <script>
+        hljs.addPlugin(new CopyButtonPlugin());
+        hljs.highlightAll();
+    </script>
+</body>
+</html>

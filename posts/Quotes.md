@@ -4,6 +4,9 @@ tags: ["reference", "post"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
 ---
+
+A collections of quotes, plucked from many different sources. Some of these match my own opinions. Some of these go completely against. Some of these aren't even opinions - just dialogues or passages or sentences that stuck out to me. In effect, this is a living scrapbook of amusing compositions of words.
+
 > Within the 'symphony of voices,' Kepler believed that the speed of
 > each planet corresponds to certain notes in the Latinate musical scale
 > popular in his day - do, re, mi, fa, sol, la, ti, do. He claimed that
@@ -181,3 +184,515 @@ permalink: "/post/{{ title | slugify }}/"
 > to tell, and we live out those stories every day.
 > 
 > *- Derren Brown, Happy: Why More or Less Everything is Absolutely Fine*
+
+
+> It's easy to become as obsessed with online metrics as money. It can
+> then be tempting to use those metrics to decide what to work on next,
+> without taking into account how shallow those metrics really are. An
+> Amazon rank doesn't tell you whether someone read your book twice and
+> loved it so much she passed it on to a friend. Instagram likes don't
+> tell you whether an image you made stuck with someone for a month. A
+> stream count doesn't equal an actual human being showing up to your
+> live show and dancing.
+> 
+> *- Austin Kleon, Keep Going*
+
+> Lots of people want to be the noun without doing the verb. They want
+> the job title without the work.
+>
+> If you pick the wrong noun to aspire to, you'll be stuck with the
+> wrong verb, too. When people use the word "creative" as a job title,
+> it not only falsely divides the world into "creatives" and
+> "non-creatives," but also implies that the work of a "creative" is
+> "being creative."
+>
+> But being creative is never an end; it is a means to something else.
+> Creativity is just a tool.
+> 
+> *- Austin Kleon, Keep Going*
+
+> Dusk, like a palpable entity, entered the room, and the dancing circle
+> of yellow light about the torches etched itself into the ever sharper
+> distinction against the gathering greyness beyond.
+> 
+> *- Isaac Asimov, Nightfall*
+
+> He had long ago decided that no worthwhile woman could ever be
+> seduced; you could present the possibility to them, but you had to
+> leave it to them to do the seducing for you, and if they weren't so
+> minded, there was very little you could do to change their outlook.
+> 
+> *- Isaac Asimov, Nightfall*
+
+> Why had it happened? she asked herself. Why? Why? Why? Were we so
+> evil? Had we strayed so far from the path of the gods that we needed
+> to be punished this way?
+>
+> No. No! There are no gods; there was no punishment. Of that much,
+> Siferra was still certain. She had no doubt that this was simply the
+> working of blind fate, brought about by the impersonal movements of
+> inaminate and uncaring worlds and suns, drawing together every two
+> thousand years in dispassionate coincidence.
+>
+> That was all. An accident.
+> 
+> *- Isaac Asimov, Nightfall*
+
+
+> We think we know what we're doing. We have always thought so. We never
+> seem to acknowledge that we have been wrong in the past, and so might
+> be wrong in the future. Instead, each generation writes off earlier
+> errors as the result of bad thinking by less able minds - and then
+> confidently embarks on fresh errors of its own.
+> 
+> *- Prey, Michael Crichton*
+
+> He had no right to all the grace and bounty of this world, earned and
+> maintained by the work, the devotion, the faithfulness of its people.
+> Para- dise is for those who make Paradise. He did not belong.
+> 
+> *- Ursula Le Guin, The Dispossesed*
+
+> He went on writing letters to Urras, even when he mailed none of them
+> at all. The fact of writing for someone who might understand - who
+> might have understood - made it possible for him to write, to think.
+> 
+> *- Ursula Le Guin, The Dispossesed*
+
+> You can't crush ideas by suppressing them. You can only crush them by
+> ignoring them. By refusing to think, refusing to change.
+> 
+> *- Ursula Le Guin, The Dispossesed*
+
+> "If you can see a thing whole," he said, "it seems that it's always
+> beautiful. Planets, lives\.... But close up, a world's all dirt and
+> rocks. And day to day, life's a hard job, you get tired, you lose the
+> pattern. You need distance, interval. The way to see how beautiful the
+> earth is, is to see it as the moon. The way to see how beautiful life
+> is, is from the vantage point of death."
+> 
+> *- Ursula Le Guin, The Dispossesed*
+
+> "There's a point, around age twenty," Bedap said. "when you have to
+> choose whether to be like everybody else the rest of your life, or to
+> make a virtue of your peculiarities."
+> 
+> *- Ursula Le Guin, The Dispossesed*
+
+> When they sang, both the exhilaration and the fear became a blind
+> exaltation; his eyes filled with tears. It was deep, in the deep
+> streets, softened by open air and by distances, indistinct,
+> overwhelming, that lifting up of thousands of voices in one song. The
+> singing of the front of the march, far away up the street, and of the
+> endless crowds coming on behind, was put out of phase by the distance
+> the sound must travel, so that the melody seemed always to be lagging
+> and catching up with itself, like a canon, and all the parts of the
+> song where being sung at one time, in the same moment, though each
+> singer sang the tune as a line from beginning to end.
+> 
+> *- Ursula Le Guin, The Dispossesed*
+
+> "But I'm luckier. A scientist can pretend that his work isn't himself,
+> it's merely the impersonal truth. An artist can't hide behind the
+> truth. He can't hide anywhere."
+> 
+> *- Ursula Le Guin, The Dispossesed*
+
+> If you evade suffering you also evade the chance of joy. Pleasure you
+> may get, or pleasures, but you will not be fulfilled. You will not
+> know what it is to come home.
+> 
+> *- Ursula Le Guin, The Dispossesed*
+
+> "Where does your soul go, when you die in Hell?"
+> 
+> *- Ursula Le Guin, The Dispossesed*
+
+> "And you will come back," Takver said. Her eyes were very dark, a soft
+> darkness, like the darkness of a forest at night.
+> 
+> *- Ursula Le Guin, The Dispossesed*
+
+> A night-blooming flower from some unimaginable world had opened among
+> the dark leaves and was sending out its perfume with patient,
+> unavailing sweetness to attract some unimaginable moth trillions of
+> miles away, in a garden on a world circling another star. The
+> sunlights differ, but there is only one darkness.
+> 
+> *- Ursula Le Guin, The Dispossesed*
+
+> ..the fossil record of a few million years ago is replete with a great
+> variety of manlike forms, an interesting number of which are found
+> with holes or fractures in their skulls. Some of these injuries may
+> have been inflicted by leopards or hyenas; but Leakey and the South
+> African anatomist Raymond Dart believed that many of them were
+> inflicted by our ancestors. In Pliocene/Pleistocene times there was
+> almost certainly a vigorous competition among many manlike forms, of
+> which only one line survived-the tool experts, the line that led to
+> us. What role killing played in that competition remains an open
+> question. The gracile Australopithecines were erect, agile, fleet and
+> three and a half feet tall: "little people." I sometimes wonder
+> whether our myths about gnomes, trolls, giants and dwarfs could
+> possibly be a genetic or cultural memory of those times.
+> 
+> *- Carl Sagan, The Dragons of Eden*
+
+> Even at the time that the Eden story was written, the development of
+> cognitive skills was seen as endowing man with godlike powers and
+> awesome responsibilities. God says: "Behold, the man is become as one
+> of us, to know good and evil, and now, lest he put forth his hand, and
+> take also of the Tree of Life, and eat, and live forever" (Genesis
+> 3:22), he must be driven out of the Garden. God places cherubim with a
+> flaming sword east of Eden to guard the Tree of Life from the
+> ambitions of man.
+>
+> Perhaps the Garden of Eden is not so different from Earth as it
+> appeared to our ancestors of some three or four million years ago,
+> during a legendary golden age when the genus Homo was perfectly
+> interwoven with the other beasts and vegetables. After the exile from
+> Eden we find, in the biblical account, mankind condemned to death;
+> hard work; clothing and modesty as preventatives of sexual
+> stimulation; the dominance of men over women; the domestication of
+> plants (Cain); the domestication of animals (Abel); and murder (Cain
+> plus Abel). These all correspond reasonably well to the historical and
+> archaeological evidence. In the Eden metaphor, there is no evidence of
+> murder before the Fall. But those fractured skulls of bipeds not on
+> the evolutionary line to man may be evidence that our ancestors
+> killed, even in Eden, many manlike animals.
+>
+> Civilization develops not from Abel, but from Cain the murderer. The
+> very word "civilization" derives from the Latin word for city. It is
+> the leisure time, community organization and specialization of labor
+> in the first cities that permitted the emergence of the arts and
+> technologies we think of as the hallmarks of civilizations. The first
+> city, according to Genesis, was constructed by Cain, the inventor of
+> agriculture - a technology that requires a fixed abode. And it is his
+> descendants, the sons of Lamech, who invent both "artifices in brass
+> and iron" and musical instruments. Metallurgy and music-technology and
+> art - are in the line from Cain. And the passions that lead to murder
+> do not abate: Lamech says, "For I have slain a man for wounding me,
+> and a young man for bruising me; if Cain shall be avenged sevenfold,
+> truly Lamech seventy and sevenfold." The connection between murder and
+> invention has been with us ever since. Both derive from agriculture
+> and civilization.
+> 
+> *- Carl Sagan, The Dragons of Eden*
+
+> Thus the frontal lobes may be involved with peculiarly human functions
+> in two different ways. If they control anticipation of the future,
+> they must also be the sites of concern, the locales of worry. This is
+> why transection of the frontal lobes reduces anxiety. But prefrontal
+> lobotomy must also greatly reduce the patient's capacity to be human.
+>
+> The price we pay for anticipation of the future is anxiety about it.
+> 
+> *- Carl Sagan, The Dragons of Eden*
+
+> In bed, they made love. Love doesn't just sit there, like a stone, it
+> has to be made, like bread; re-made all the time, made new. When it
+> was made, they lay in each other's arms, holding love, asleep.
+> 
+> *- Ursula Le Guin, The Lathe of Heaven*
+
+> She eyed him with curiosity. He stood and endured reality.
+> 
+> *- Ursula Le Guin, The Lathe of Heaven*
+
+> There is a bird in a poem by T. S. Eliot who says that mankind cannot
+> bear very much reality; but the bird is mistaken. A man can endure the
+> entire weight of the universe for eighty years. It is unreality that
+> he cannot bear.
+> 
+> *- Ursula Le Guin, The Lathe of Heaven*
+
+> The quality of the will to power is, precisely, growth. Achievement is
+> its cancellation. To be, the will to power must increase with each
+> fulfillment, making the fulfillment only a step to a further one. The
+> vaster the power gained, the vaster the appetite for more.
+> 
+> *- Ursula Le Guin, The Lathe of Heaven*
+
+> Things don't have purposes, as if the universe were a machine, where
+> every part has a useful function. What's the function of a galaxy? I
+> don't know if our life has a purpose and I don't see that it matters.
+> What does matter is that we're a part.
+>
+> Like a thread in a cloth or a grass-blade in a field. It is and we
+> are. What we do is like wind blowing on the grass.
+> 
+> *- Ursula Le Guin, The Lathe of Heaven*
+
+> Of course, Haber thought, a man who saw a miracle would reject his
+> eyes' witness, if those with him saw nothing.
+> 
+> *- Ursula Le Guin, The Lathe of Heaven*
+
+> He thought, I am living in a nightmare, from which from time to time I
+> wake in sleep.
+> 
+> *- Ursula Le Guin, The Lathe of Heaven*
+
+> Current-borne, wave-flung, tugged hugely by the whole might of ocean,
+> the jellyfish drifts in the tidal abyss. The light shines through it,
+> and the dark enters it. Borne, flung, tugged from anywhere to
+> anywhere, for in the deep sea there is no compass but nearer and
+> farther, higher and lower, the jellyfish hangs and sways; pulses move
+> slight and quick within it, as the vast diurnal pulses beat in the
+> moondriven sea. Hanging, swaying, pulsing, the most vulnerable and
+> insubstantial creature, it has for its defense the violence and power
+> of the whole ocean, to which it has entrusted its being, its going,
+> and its will.\*
+>
+> But here rise the stubborn continents. The shelves of gravel and the
+> cliffs of rock break from water baldly into air, that dry, terrible
+> outerspace of radiance and instability, where there is no support for
+> life. And now, now the currents mislead and the waves betray, breaking
+> their endless circle, to leap up in loud foam against rock and air,
+> breaking\....
+>
+> What will the creature made all of seadrift do on the dry sand of
+> daylight; what will the mind do, each morning, waking?
+> 
+> *- Ursula Le Guin, The Lathe of Heaven*
+
+> How does one hate a country, or love one?
+>
+> ...I know people, I know towns, farms, hills and rivers and rocks, I
+> know how the sun at sunset in autumn falls on the side of a certain
+> plowland in the hills; but what is the sense of giving a boundary to
+> all that, of giving it a name and ceasing to love where the name
+> ceases to apply? What is love of one's country; is it hate of one's
+> uncountry? Then it's not a good thing. Is it simply self-love? That's
+> a good thing, but one mustn't make a virtue of it, or a profession.
+> Insofar as I love life, I love the hills of the Domain of Estre, but
+> that sort of love does not have a boundary-line of hate. And beyond
+> that, I am ignorant. I hope"
+> 
+> *- Ursula Le Guin, The Left Hand of Darkness*
+
+> Like all the King's House this room was high, red, old, bare, with a
+> musty chill on the air as if the drafts blew in not from other rooms
+> but from other centuries.
+> 
+> *- Ursula Le Guin, The Left Hand of Darkness*
+
+> It is curious - but you cannot make a revolution without honest men.
+> The instinct of the populace is infallible. Every revolution has had
+> its honest men. They are soon disposed off afterwards.
+> 
+> *- Agatha Christie, The Secret Adversary*
+
+> Youth is a failing only too easily outgrown.
+> 
+> *- Agatha Christie, The Secret Adversary*
+
+> Tuppence was ushered into a room on the right of the long passage. A
+> woman was standing by the fire-place. She was no longer in her first
+> youth, and the beauty she undeniably possessed was hardened and
+> coarsened. In her youth, she must have been dazzling. Her pale gold
+> hair, owing a slight assistance to art, was coiled low on her neck,
+> her eyes, of a piercing electric blue, seemed to possess a faculty of
+> boring into the very soul of the person she was looking at.
+>
+> And yet, despite her swaying grace, and the almost ethereal beauty of
+> her face, you felt instinctively the presence of something hard and
+> menacing, a kind of metallic strength that found expression in the
+> tones of her voice and in that gimlet-like quality of her eyes.
+> 
+> *- Agatha Christie, The Secret Adversary*
+
+> Look inwards, for a moment, and consider the contents of your mind. In
+> the course of an ordinary day, you'll think a huge number of different
+> thoughts. You might believe it's Thursday morning, deny that it's too
+> late to catch the train, expect the coffee shop to be open, want the
+> queue to be shorter, wish the guy in front of you would hurry up, hope
+> it's not now too late to catch the train, suspect that the guy in
+> front of you is an idiot, wonder why you thought you had time for
+> coffee when clearly only a fool would risk missing the train and now
+> you'll never make it, what people are going to think about you showing
+> up late, and so on, for the many hurried moments of your conscious
+> life.
+>
+> Maybe what makes you think about coffee in the first place is another
+> thing in your head, a feeling of tiredness that gets your attention
+> over and above the other bodily sensations you have, all the pains,
+> tickles, twinges and itches and what ever else you might feel.
+> Colouring all this are other things, not quite thoughts or bodily
+> feelings, but emotions like love, anger, regret and happiness. Of
+> course, there's also the passing show, the perceptual experiences you
+> have when your sense organs bump into the world - all the sights,
+> sounds, tastes, touches and smells that come together to immerse you
+> in a three-dimensional picture of everything around you. All the while
+> you remember some things, imagine others, daydream, wonder, plan, and
+> generally get on with your inner life. In doing all this you might
+> notice another something at the centre of it all: you, or at least the
+> sense that you're doing all the thinking and feeling and seeing and
+> everything else.
+>
+> But what is all this mental reality? It's not just you, but a lot of
+> world - every person and every creature with a point of view. Is a
+> thought another thing like a book or a boat, or is it an entirely
+> different sort of something? How do thoughts fit in to the physical
+> world? Is it right to think of mental things as really real, or is it
+> all somehow reducible to the physical world of particles and forces?
+> Philosophers zero in on all this with two questions. What is a mind?
+> And what is the relationship between mind and body?
+> 
+> *- James Garvey, The Story of Philosophy*
+
+> The greater part of human activity is designed to make permanent those
+> experiences and joys which are only lovable because they are changing.
+> Music is a delight because of its rhythm and flow. Yet the moment you
+> arrest the flow and prolong a note or chord beyond its time, the
+> rhythm is destroyed. Because life is likewise a flowing process,
+> change and death are its necessary parts. To work for their exclusion
+> is to work against life.
+> 
+> *- Alan Watts, The Wisdom of Insecurity*
+
+> For the animal to be happy it is enough that this moment be enjoyable.
+> But man is hardly satisfied with this at all. He is much more
+> concerned to have enjoyable memories and expectations --- especially
+> the latter. With these assured, he can put up with an extremely
+> miserable present. Without this assurance, he can be extremely
+> miserable in the midst of immediate physical pleasure.
+> 
+> *- Alan Watts, The Wisdom of Insecurity*
+
+> The power of memories and expectations is such that for most human
+> beings the past and the future are not as real, but more real than the
+> present. The present cannot be lived happily unless the past has been
+> "cleared up" and the future is bright with promise.
+> 
+> *- Alan Watts, The Wisdom of Insecurity*
+
+> What we have forgotten is that thoughts and words are conventions, and
+> that it is fatal to take conventions too seriously. A convention is a
+> social convenience, as, for example, money. Money gets rid of the
+> inconveniences of barter. But it is absurd to take money too
+> seriously, to confuse it with real wealth, because it will do you no
+> good to eat it or wear it for clothing. Money is more or less static,
+> for gold, silver, strong paper, or a bank balance can "stay put" for a
+> long time. But real wealth, such as food, is perishable. Thus a
+> community may possess all the gold in the world, but if it does not
+> farm its crops it will starve.
+> 
+> *- Alan Watts, The Wisdom of Insecurity*
+
+> It is convention alone which persuades me that I am simply this body
+> bounded by a skin in space, and by birth and death in time.
+>
+> Where do I begin and end in space? I have relations to the sun and air
+> which are just as vital parts of my existence as my heart. The
+> movement in which I am a pattern or convolution began incalculable
+> ages before the (conventionally isolated) event called birth, and will
+> continue long after the event called death. Only words and conventions
+> can isolate us from the entirely undefinable something which is
+> everything.
+> 
+> *- Alan Watts, The Wisdom of Insecurity*
+
+> Thus the "brainy" economy designed to produce this happiness is a
+> fantastic vicious circle which must either manufacture more and more
+> pleasures or collapse---providing a constant titillation of the ears,
+> eyes, and nerve ends with incessant streams of almost inescapable
+> noise and visual distractions. The perfect "subject" for the aims of
+> this economy is the person who continuously itches his ears with the
+> radio, preferably using the portable kind which can go with him at all
+> hours and in all places. His eyes flit without rest from television
+> screen, to newspaper, to magazine, keeping him in a sort of
+> orgasm-with-out-release through a series of teasing glimpses of shiny
+> automobiles, shiny female bodies, and other sensuous surfaces,
+> interspersed with such restorers of sensitivity---shock
+> treatments---as "human interest" shots of criminals, mangled bodies,
+> wrecked airplanes, prize fights, and burning buildings. The literature
+> or discourse that goes along with this is similarly manufactured to
+> tease without satisfaction, to replace every partial gratification
+> with a new desire.
+> 
+> *- Alan Watts, The Wisdom of Insecurity*
+
+> The mystery of life is not a problem to be solved, but a reality to be
+> experienced.
+> 
+> *- Alan Watts, The Wisdom of Insecurity*
+
+> How long have the planets been circling the sun? Are they getting
+> anywhere, and do they go faster and faster in order to arrive? How
+> often has the spring returned to the earth? Does it come faster and
+> fancier every year, to be sure to be better than last spring, and to
+> hurry on its way to the spring that shall out-spring all springs?
+>
+> The meaning and purpose of dancing is the dance. Like music, also, it
+> is fulfilled in each moment of its course. You do not play a sonata in
+> order to reach the final chord, and if the meanings of things were
+> simply in ends, composers would write nothing but finales.
+> 
+> *- Alan Watts, The Wisdom of Insecurity*
+
+> We are going to die, and that makes us the lucky ones. Most people are
+> never going to die because they are never going to be born. The
+> potential people who could have been here in my place but who will in
+> fact never see the light of day outnumber the sand grains of Arabia.
+> Certainly those unborn ghosts include greater poets than Keats,
+> scientists greater than Newton. We know this because the set of
+> possible people allowed by our DNA so massively exceeds the set of
+> actual people.
+>
+> In the teeth of these stupefying odds it is you and I, in our
+> ordinariness, that are here.
+> 
+> *- Richard Dawkins, Unweaving the Rainbow*
+
+> If everything is judged by how 'useful' it is - useful for staying
+> alive, that is, we are left facing a futile circularity. There must be
+> some added value. At least a part of life should be devoted to living
+> that life, not just working to stop it ending.
+> 
+> *- Richard Dawkins, Unweaving the Rainbow*
+
+> We have an appetite for wonder, a poetic appetite, which real science
+> ought to be feeding but which is being hijacked, often for monetary
+> gain, by purveyors of superstition, the paranormal and astrology.
+> Resonant phrases like 'the Fourth House of the Age of Aquarius', or
+> 'Neptune went retrograde and moved into Sagittarius' whip up a bogus
+> romance which, to the naïve and impressionable, is almost
+> indistinguishable from authentic scientific poetry.
+> 
+> *- Richard Dawkins, Unweaving the Rainbow*
+
+> In another Japanese Buddhist fable, two traveling Zen monks were about
+> to wade across a river when a young woman asked them to carry her over
+> the swift water. Both of these monks had taken advanced vows and were
+> not permitted to touch women, but without hesitation the older monk
+> lifted her up, put her on his back, and walked across. When they
+> reached the other side, he let the woman down and, without any small
+> talk, walked away. A few hours later the younger monk blurted out,
+> "Aren't we monks? Why did you carry that woman?"
+>
+> The older monk replied, "I put her down a long time ago. Why are you
+> still carrying her?"
+> 
+> *- Dzongsar Jamyang Khyentse, What Makes You Not A Budhhist*
+
+> Most images of the Buddha show him in the posture of sitting
+> meditation, in the particular attitude known as padmasana, the posture
+> of the lotus, with the legs crossed and the feet resting, soles
+> upward, upon the thighs.
+>
+> Sitting meditation is not, as is often supposed, a spiritual
+> "exercise," a practice followed for some ulterior object. From a
+> Buddhist standpoint, it is simply the proper way to sit, and it seems
+> perfectly natural to remain sitting so long as there is nothing else
+> to be done, and so long as one is not consumed with nervous agitation.
+> To the restless temperament of the West, sitting meditation may seem
+> to be an unpleasant discipline, because we do not seem to be able to
+> sit "just to sit" without qualms of conscience, without feeling that
+> we ought to be doing something more important to justify our
+> existence. To propitiate this restless conscience, sitting meditation
+> must therefore be regarded as an exercise, a discipline with an
+> ulterior motive. Yet at that very point it ceases to be meditation
+> (dhyana) in the Buddhist sense, for where there is purpose, where
+> there is seeking and grasping for results, there is no dhyana.
+> 
+> *- Dzongsar Jamyang Khyentse, What Makes You Not A Budhhist*

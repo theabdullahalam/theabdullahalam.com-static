@@ -36,7 +36,7 @@
         <div class="header">
             <a href="/"><img src="/static/img/favicon.png" class="site-logo" /></a>
             <a href="/"><h1 class="site-title">theabdullahalam.com</h1></a>
-            <i class="fa-solid fa-circle-half-stroke dark-mode-toggle"></i>
+            <i class="fa-solid fa-circle-half-stroke dark-mode-toggle" id="light-mode-toggle"></i>
             <button onclick="toggleSidebar()" class="toggle-sidebar"><i class="fa-solid fa-bars"></i></button>
         </div>
         <div class="content">
@@ -154,6 +154,44 @@ def get_serializer_context(self):
             
         
     
+        
+            
+                
+            
+                
+                     
+                    <a href="/post/building-an-extensible-virtual-assistant-using-go-part-0/" class="post">
+                        <h2>Building an extensible Virtual Assistant using Go - Part 0</h2>
+                        <p class="date">17 December, 2024</p>
+                    </a>
+                
+            
+                
+                     
+                    <a href="/post/building-an-extensible-virtual-assistant-using-go-part-1/" class="post">
+                        <h2>Building an extensible Virtual Assistant using Go - Part 1</h2>
+                        <p class="date">17 December, 2024</p>
+                    </a>
+                
+            
+                
+                     
+                    <a href="/post/linux-cheatsheet/" class="post">
+                        <h2>Linux Cheatsheet</h2>
+                        <p class="date">20 December, 2024</p>
+                    </a>
+                
+            
+        
+    
+        
+            
+                
+            
+                
+            
+        
+    
 </div>
 
 
@@ -190,10 +228,32 @@ def get_serializer_context(self):
                     
                         
                             <a 
+                                href="/posts/cheatsheets/" 
+                                class="nav-link selected"
+                            >
+                                cheatsheets
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
                                 href="/posts/code/" 
                                 class="nav-link selected"
                             >
                                 code
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/dev/" 
+                                class="nav-link selected"
+                            >
+                                dev
                             </a>
                         
                     
@@ -245,10 +305,32 @@ def get_serializer_context(self):
                     
                         
                             <a 
+                                href="/posts/golang/" 
+                                class="nav-link "
+                            >
+                                golang
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
                                 href="/posts/guides/" 
                                 class="nav-link selected"
                             >
                                 guides
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/linux/" 
+                                class="nav-link "
+                            >
+                                linux
                             </a>
                         
                     
@@ -271,6 +353,17 @@ def get_serializer_context(self):
                                 class="nav-link "
                             >
                                 music
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/philosophy/" 
+                                class="nav-link "
+                            >
+                                philosophy
                             </a>
                         
                     
@@ -346,6 +439,28 @@ def get_serializer_context(self):
                     
                         
                             <a 
+                                href="/posts/software/" 
+                                class="nav-link "
+                            >
+                                software
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/tech/" 
+                                class="nav-link "
+                            >
+                                tech
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
                                 href="/posts/urdu-poetry/" 
                                 class="nav-link "
                             >
@@ -362,6 +477,7 @@ def get_serializer_context(self):
     </div>
     
     <script src="/static/js/sidebar.js"></script>
+    <script src="/static/js/lightmode.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.0/languages/python.min.js"></script>
     <script>
         hljs.addPlugin(new CopyButtonPlugin());

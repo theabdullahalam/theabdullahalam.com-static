@@ -8,6 +8,9 @@ body h1 {
   padding-bottom: 1rem;
   color: #7da766;
 }
+body.light-mode .post-list .post .date {
+  color: rgba(0, 0, 0, 0.301);
+}
 
 .post-list {
   display: flex;

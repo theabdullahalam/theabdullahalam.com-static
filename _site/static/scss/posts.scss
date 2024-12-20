@@ -10,6 +10,17 @@ body {
         color: $theme_green;
         // color: $text_color_light;
     }
+
+    &.light-mode {
+        .post-list {
+            .post {
+                .date {
+                    color: rgba(0, 0, 0, 0.301);
+                }
+            }
+        }
+    }
+
 }
 
 .post-list {

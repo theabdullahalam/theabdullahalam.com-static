@@ -1,6 +1,6 @@
 ---
 title: Django Cheatsheet
-tags: ["post", "python", "django", "guides", "code"]
+tags: ["post", "python", "django", "guides", "code", "dev", "cheatsheets"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
 ---

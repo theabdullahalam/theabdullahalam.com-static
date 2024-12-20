@@ -4,38 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "eabd34071636b566",
+        "id": "c9fdf84e99769133",
         "type": "tabs",
         "children": [
           {
-            "id": "0b1d724de696e4e2",
+            "id": "617b8bad48f191ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Change Git Remote to use SSH instead of HTTP.md",
+                "file": "posts/Untitled.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Change Git Remote to use SSH instead of HTTP"
+              "title": "Untitled"
             }
           },
           {
-            "id": "0f7134411514489d",
+            "id": "1994a855f09bd5da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Bliss You Are Being Missed.md",
+                "file": "posts/Zamaana Badalta Gaya.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Bliss You Are Being Missed"
+              "title": "Zamaana Badalta Gaya"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 296.5
   },
   "right": {
     "id": "b616ac324a5128c8",
@@ -176,45 +177,51 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b1d724de696e4e2",
+  "active": "1994a855f09bd5da",
   "lastOpenFiles": [
-    "_site/post/change-git-remote-to-use-ssh-instead-of-http/index.html",
-    "_site/post/change-git-remote-to-use-ssh-instead-of-http",
-    "posts/how.md",
-    "posts/Change Git Remote to use SSH instead of HTTP.md",
-    "_site/post/how/index.html",
-    "_site/post/how",
-    "_site/post/help/index.html",
-    "_site/post/help",
-    "posts/Help Me.md",
-    "_site/posts/how/index.html",
-    "_site/posts/how",
-    "_site/post/help-me/index.html",
-    "_site/post/help-me",
-    "posts/Quotes.md",
-    "posts/Hazireen-e-Umr.md",
-    "_site/post/hazireen-e-umr/index.html",
-    "posts/Goodbye - A Short Story.md",
-    "posts/Ever Feel Like Poetry?.md",
-    "posts/Flow - Mihály Csíkszentmihályi.md",
-    "posts/Never Ending Freefall.md",
-    "posts/Drowing in Epiphanies.md",
-    "posts/Dreams of Tomorrow.md",
-    "posts/A Walk In The Sky.md",
-    "posts/A Posthumous Sorrow.md",
-    "posts/Django Cheatsheet.md",
-    "_site/static/img/favicon.png",
+    "_site/media/headers/jurassic_park.jpg",
+    "_site/posts/populartags/index.html",
+    "_site/posts/populartags",
+    "_site/posts/posttags/index.html",
+    "_site/posts/posttags",
+    "_site/posts/philosophy/index.html",
+    "_site/posts/philosophy",
+    "_site/posts/astronomy/index.html",
+    "_site/posts/astronomy",
+    "_site/posts/reference/index.html",
+    "_site/posts/reference",
     "_site/media/headers/wonka.png",
+    "_site/media/headers/uncanny_valley.jpg",
     "_site/media/headers/total_eclipse_2024.jpg",
-    "posts/The Experience of a Total Solar Eclipse.md",
-    "posts/Digital Gardens and the Indieweb.md",
-    "posts/Convert Natural Language Time to Python Datetime.md",
-    "posts/Bliss You Are Being Missed.md",
-    "posts/better a work in progress.md",
-    "posts/Aazaadi.md",
-    "posts/Aaftaab - The Local Train - Lyrics Poetic Translation.md",
-    "posts/1984 - George Orwell.md",
+    "_site/static/img/favicon.png",
+    "posts/Wonka - A Delightful Portrayal of Kind Masculinity.md",
+    "posts/Zamaana Badalta Gaya.md",
+    "posts/Quotes.md",
+    "posts/Rewatching Jurassic Park on the Big Screen.md",
+    "media/headers/jurassic_park.jpg",
+    "posts/Untitled.md",
+    "posts/Unsolicited Travellers.md",
+    "posts/Book Review - Uncanny Valley, Anna Wiener.md",
+    "media/headers/uncanny_valley.jpg",
+    "_site/media/headers/PXL_20230729_212151140.jpg",
+    "media/headers/PXL_20230729_212151140.jpg",
     "posts/Template Post.md",
-    "posts/Another Film.md"
+    "posts/Longing for Monsoons.md",
+    "posts/Oneself.md",
+    "posts/The Clouds Below.md",
+    "posts/The Second Night.md",
+    "posts/The Fog and the Self.md",
+    "posts/Surgical Strike.md",
+    "posts/Slipping Away.md",
+    "posts/A Walk In The Sky.md",
+    "posts/Django Cheatsheet.md",
+    "posts/Linux Cheatsheet.md",
+    "posts/Forgiving.md",
+    "posts/Is Software Getting Too Abstract?.md",
+    "posts/Building an extensible Virtual Assistant using Go - Part 1.md",
+    "posts/Building an extensible Virtual Assistant using Go - Part 0.md",
+    "posts/Change Git Remote to use SSH instead of HTTP.md",
+    "posts/Bliss You Are Being Missed.md",
+    "posts/how.md"
   ]
 }

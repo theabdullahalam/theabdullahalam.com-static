@@ -36,7 +36,7 @@
         <div class="header">
             <a href="/"><img src="/static/img/favicon.png" class="site-logo" /></a>
             <a href="/"><h1 class="site-title">theabdullahalam.com</h1></a>
-            <i class="fa-solid fa-circle-half-stroke dark-mode-toggle"></i>
+            <i class="fa-solid fa-circle-half-stroke dark-mode-toggle" id="light-mode-toggle"></i>
             <button onclick="toggleSidebar()" class="toggle-sidebar"><i class="fa-solid fa-bars"></i></button>
         </div>
         <div class="content">
@@ -57,15 +57,15 @@
         
     
         
-            <a href="/posts/python/" class="tag">python</a>
+            <a href="/posts/essay/" class="tag">essay</a>
         
     
         
-            <a href="/posts/guides/" class="tag">guides</a>
+            <a href="/posts/dev/" class="tag">dev</a>
         
     
         
-            <a href="/posts/code/" class="tag">code</a>
+            <a href="/posts/film/" class="tag">film</a>
         
     
         
@@ -110,10 +110,32 @@
                     
                         
                             <a 
+                                href="/posts/cheatsheets/" 
+                                class="nav-link "
+                            >
+                                cheatsheets
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
                                 href="/posts/code/" 
                                 class="nav-link "
                             >
                                 code
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/dev/" 
+                                class="nav-link "
+                            >
+                                dev
                             </a>
                         
                     
@@ -165,10 +187,32 @@
                     
                         
                             <a 
+                                href="/posts/golang/" 
+                                class="nav-link "
+                            >
+                                golang
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
                                 href="/posts/guides/" 
                                 class="nav-link "
                             >
                                 guides
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/linux/" 
+                                class="nav-link "
+                            >
+                                linux
                             </a>
                         
                     
@@ -191,6 +235,17 @@
                                 class="nav-link "
                             >
                                 music
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/philosophy/" 
+                                class="nav-link "
+                            >
+                                philosophy
                             </a>
                         
                     
@@ -266,6 +321,28 @@
                     
                         
                             <a 
+                                href="/posts/software/" 
+                                class="nav-link "
+                            >
+                                software
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/tech/" 
+                                class="nav-link "
+                            >
+                                tech
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
                                 href="/posts/urdu-poetry/" 
                                 class="nav-link "
                             >
@@ -282,6 +359,7 @@
     </div>
     
     <script src="/static/js/sidebar.js"></script>
+    <script src="/static/js/lightmode.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.0/languages/python.min.js"></script>
     <script>
         hljs.addPlugin(new CopyButtonPlugin());
