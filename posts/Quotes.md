@@ -137,3 +137,47 @@ permalink: "/post/{{ title | slugify }}/"
 > that debt is paid.
 > 
 > *- Chernobyl, 2019*
+
+> Elizabeth also wept and was unhappy, but hers also was the misery of
+> innocence, which, like a cloud that passes over the fair moon, for a
+> while hides but cannot tarnish its brightness.
+> 
+>  *- Mary Shelly, Frankenstein*
+
+> Nothing is more painful to the human mind than, after the feelings
+> have been worked up by a quick succession of events, the dead calmness
+> of inaction and certainty which follows and deprives the soul both of
+> hope and fear.
+> 
+>  *- Mary Shelly, Frankenstein*
+
+> We have come to identify ourselves with the goal, we have become
+> committed to pursue it at all costs rather than admit defeat.
+>
+> Determined to retain a positive outlook, we remove naysayers from our
+> lives, as the self-help industry instructs us. This may make for a
+> proud slogan for social-media profiles -- a snappy, self-assured
+> 'Ignore the h8ers' -- but it can be a dangerous folly. By removing or
+> ignoring the sources of honest feedback, we create a neat means of
+> fuelling the downward spiral of self-deception.
+>
+> When we proudly denounce those who would undermine our self-belief, we
+> emulate a model of strength we have been sold principally through the
+> biographies of successful, strong entrepreneurs. We equate persistent
+> commitment and the ability to laugh at one's detractors with a recipe
+> for success. But this is a lie. We believe it because we are told it
+> through many channels, but its source springs from a powerful select
+> few who boast about their life stories as they perceive them.
+> 
+> *- Derren Brown, Happy: Why More or Less Everything is Absolutely Fine*
+
+> It is hard to think about your past without tidying it up into a kind
+> of story: one in which you are cast as the hero or victim.
+>
+> Invariably we ignore the regular dice-rolls of chance or random luck;
+> successful high-flyers are typically prone to ignoring the interplay
+> of blind fortune when they credit their career trajectories to their
+> canny business sense or brute self-belief. We tell the story we want
+> to tell, and we live out those stories every day.
+> 
+> *- Derren Brown, Happy: Why More or Less Everything is Absolutely Fine*

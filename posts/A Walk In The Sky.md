@@ -1,3 +1,9 @@
+---
+title: A Walk in the Sky
+tags: ["post", "poetry", "english poetry"]
+layout: post
+permalink: "/post/{{ title | slugify }}/"
+---
 Why is it that\
 feelings only\
 feel real\
@@ -21,3 +27,5 @@ as an evening walk.
 
 Wish we could go\
 for a walk in the sky.
+
+*- Abdullah Alam*

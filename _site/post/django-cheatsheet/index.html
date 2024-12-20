@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Cheatsheet</title>
+    
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/post.css">
+    
+    
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+    />
+
+    
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/obsidian.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.css"
+    />
+
+    
+</head>
+<body>
+    <!-- the everything div is so that all the content can be centered in the page but everything insie is left aligned -->
+    <div class="everything">
+        <div class="header">
+            <a href="/"><img src="/static/img/favicon.png" class="site-logo" /></a>
+            <a href="/"><h1 class="site-title">theabdullahalam.com</h1></a>
+            <i class="fa-solid fa-circle-half-stroke dark-mode-toggle"></i>
+            <button onclick="toggleSidebar()" class="toggle-sidebar"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <div class="content">
+            
+            
+<div class="post">
+    <div class="heading">
+        
+        <h1>Django Cheatsheet</h1>
+    </div>
+    <div class="dates">
+        <p class="date">16 December, 2024</p>
+    </div>
+    <div class="main-content">
+<p>A cheatsheet for commonly used Django snippets.</p>
+<h2>Override <em>save()</em> in models</h2>
+<pre><code class="language-python">def save(self, *args, **kwargs):
+    super(ModelClass, self).save(*args, **kwargs)
+</code></pre>
+<h2>Timezone Aware datetime</h2>
+<pre><code class="language-python">from django.utils import timezone
+
+# UTC
+timezone.now()
+
+# In current timezone
+timezone.localtime()
+</code></pre>
+<h2>String join lists in Django Template</h2>
+<pre><code class="language-jinja2">
+</code></pre>
+<h2>Aggregation</h2>
+<pre><code class="language-python">from django.db.models import Avg, Max, Sum
+
+# number of items
+MyModel.objects.all().count()
+
+# sum
+# get the sum of all the 'total_amount' values of the MyModel object
+amount_sum = MyModel.objects.all().aggregate(Sum(&quot;total_amount&quot;))
+val = amount_sum[&quot;total_amount__sum&quot;]
+</code></pre>
+<h2>Pass data from view to serializer (Django DRF)</h2>
+<p>In your APIView in <code>views.py</code>:</p>
+<pre><code class="language-python"># override
+def get_serializer_context(self):
+    context = super().get_serializer_context()
+    context.update({&quot;request&quot;: self.request})
+    context.update({&quot;myvalue&quot;: self.kwargs[&quot;my_url_kwarg&quot;]})
+    # self.kwargs[&quot;my_url_kwarg&quot;] is just an example for a common use case
+    # you can pass anything here
+    return context
+</code></pre>
+<p>In the corresponding serializer in <code>serializers.py</code>:</p>
+<pre><code class="language-python">addr = self.context.get('myvalue', None)
+</code></pre>
+
+    </div>
+</div>
+
+<div class="related">
+    <h2>Related</h2>
+     
+
+    
+        
+    
+        
+            
+                
+                     
+                    <a href="/post/convert-natural-language-time-to-python-datetime/" class="post">
+                        <h2>Convert Natural Language Time to Python Datetime</h2>
+                        <p class="date">16 December, 2024</p>
+                    </a>
+                
+            
+                
+            
+                
+                     
+                    <a href="/post/change-git-remote-to-use-ssh-instead-of-http/" class="post">
+                        <h2>Change Git Remote to use SSH instead of HTTP</h2>
+                        <p class="date">16 December, 2024</p>
+                    </a>
+                
+            
+        
+    
+        
+            
+                
+            
+                
+            
+        
+    
+        
+            
+                
+            
+                
+            
+                
+            
+        
+    
+        
+            
+                
+            
+                
+            
+                
+            
+        
+    
+</div>
+
+
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div class="persistent">
+                <a href="/posts/all/" class="nav-link ">all posts</a>
+            </div>
+
+            <div class="tags">
+                
+                    
+                        
+                            <a 
+                                href="/posts/astronomy/" 
+                                class="nav-link "
+                            >
+                                astronomy
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/books/" 
+                                class="nav-link "
+                            >
+                                books
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/code/" 
+                                class="nav-link selected"
+                            >
+                                code
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/django/" 
+                                class="nav-link selected"
+                            >
+                                django
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/english-poetry/" 
+                                class="nav-link "
+                            >
+                                english poetry
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/essay/" 
+                                class="nav-link "
+                            >
+                                essay
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/film/" 
+                                class="nav-link "
+                            >
+                                film
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/guides/" 
+                                class="nav-link selected"
+                            >
+                                guides
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/masculinity/" 
+                                class="nav-link "
+                            >
+                                masculinity
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/music/" 
+                                class="nav-link "
+                            >
+                                music
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/poetry/" 
+                                class="nav-link "
+                            >
+                                poetry
+                            </a>
+                        
+                    
+                
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/psychology/" 
+                                class="nav-link "
+                            >
+                                psychology
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/python/" 
+                                class="nav-link selected"
+                            >
+                                python
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/reference/" 
+                                class="nav-link "
+                            >
+                                reference
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/short-stories/" 
+                                class="nav-link "
+                            >
+                                short stories
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/slice-of-life/" 
+                                class="nav-link "
+                            >
+                                slice of life
+                            </a>
+                        
+                    
+                
+                    
+                        
+                            <a 
+                                href="/posts/urdu-poetry/" 
+                                class="nav-link "
+                            >
+                                urdu poetry
+                            </a>
+                        
+                    
+                
+            </div>
+        </div>
+        <div class="footer"></div>
+            
+        </div>
+    </div>
+    
+    <script src="/static/js/sidebar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.0/languages/python.min.js"></script>
+    <script>
+        hljs.addPlugin(new CopyButtonPlugin());
+        hljs.highlightAll();
+    </script>
+</body>
+</html>

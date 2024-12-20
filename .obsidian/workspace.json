@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/The Experience of a Total Solar Eclipse.md",
+                "file": "posts/Change Git Remote to use SSH instead of HTTP.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "The Experience of a Total Solar Eclipse"
+              "title": "Change Git Remote to use SSH instead of HTTP"
             }
           },
           {
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/The Experience of a Total Solar Eclipse.md",
+                "file": "posts/Change Git Remote to use SSH instead of HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for The Experience of a Total Solar Eclipse"
+              "title": "Backlinks for Change Git Remote to use SSH instead of HTTP"
             }
           },
           {
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/The Experience of a Total Solar Eclipse.md",
+                "file": "posts/Change Git Remote to use SSH instead of HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from The Experience of a Total Solar Eclipse"
+              "title": "Outgoing links from Change Git Remote to use SSH instead of HTTP"
             }
           },
           {
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/The Experience of a Total Solar Eclipse.md"
+                "file": "posts/Change Git Remote to use SSH instead of HTTP.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of The Experience of a Total Solar Eclipse"
+              "title": "Outline of Change Git Remote to use SSH instead of HTTP"
             }
           }
         ]
@@ -178,28 +178,41 @@
   },
   "active": "0b1d724de696e4e2",
   "lastOpenFiles": [
-    "posts/Digital Gardens and the Indieweb.md",
-    "_site/posts/self-hosting/index.html",
-    "_site/posts/self-hosting",
-    "_site/posts/digital-garden/index.html",
-    "_site/posts/digital-garden",
-    "_site/posts/indieweb/index.html",
-    "_site/posts/indieweb",
-    "_site/post/digital-gardens-and-the-indie-web/index.html",
-    "_site/post/digital-gardens-and-the-indie-web",
-    "_site/post/digital-gardens-and-the-indie/index.html",
-    "_site/post/digital-gardens-and-the-indie",
+    "_site/post/change-git-remote-to-use-ssh-instead-of-http/index.html",
+    "_site/post/change-git-remote-to-use-ssh-instead-of-http",
+    "posts/how.md",
+    "posts/Change Git Remote to use SSH instead of HTTP.md",
+    "_site/post/how/index.html",
+    "_site/post/how",
+    "_site/post/help/index.html",
+    "_site/post/help",
+    "posts/Help Me.md",
+    "_site/posts/how/index.html",
+    "_site/posts/how",
+    "_site/post/help-me/index.html",
+    "_site/post/help-me",
     "posts/Quotes.md",
+    "posts/Hazireen-e-Umr.md",
+    "_site/post/hazireen-e-umr/index.html",
+    "posts/Goodbye - A Short Story.md",
+    "posts/Ever Feel Like Poetry?.md",
+    "posts/Flow - Mihály Csíkszentmihályi.md",
+    "posts/Never Ending Freefall.md",
+    "posts/Drowing in Epiphanies.md",
+    "posts/Dreams of Tomorrow.md",
+    "posts/A Walk In The Sky.md",
+    "posts/A Posthumous Sorrow.md",
+    "posts/Django Cheatsheet.md",
+    "_site/static/img/favicon.png",
+    "_site/media/headers/wonka.png",
+    "_site/media/headers/total_eclipse_2024.jpg",
+    "posts/The Experience of a Total Solar Eclipse.md",
+    "posts/Digital Gardens and the Indieweb.md",
     "posts/Convert Natural Language Time to Python Datetime.md",
     "posts/Bliss You Are Being Missed.md",
     "posts/better a work in progress.md",
-    "posts/A Posthumous Sorrow.md",
     "posts/Aazaadi.md",
     "posts/Aaftaab - The Local Train - Lyrics Poetic Translation.md",
-    "posts/A Walk In The Sky.md",
-    "_site/media/headers/wonka.png",
-    "_site/static/img/favicon.png",
-    "_site/media/headers/total_eclipse_2024.jpg",
     "posts/1984 - George Orwell.md",
     "posts/Template Post.md",
     "posts/Another Film.md"
