@@ -17,8 +17,13 @@ eleventyComputed:
             <a href="{{ post.url }}" class="post">
                 {% if post.data.header_image %}
                     <img src="{{ post.data.header_image }}" alt="{{ post.data.title }}" class="header-image"/>
+                {% else %}
+                    <div class="header-image-placeholder">
+                        <span>{{ post.data.title[0] }}</span>
+                    </div>
                 {% endif %}
                 <h2>{{ post.data.title }}</h2>
+                <div class="tags"><i class="fa-solid fa-tag"></i> <span class="tag-list">{{ post.data.tags }}</span></div>
                 <p class="date">{{ post.date | toReadableDate }}</p>
                 <p class="body">{{ post.data.excerpt }}</p>
             </a>

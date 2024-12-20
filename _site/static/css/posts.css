@@ -11,6 +11,9 @@ body h1 {
 body.light-mode .post-list .post .date {
   color: rgba(0, 0, 0, 0.301);
 }
+body.light-mode .post-list .post .header-image-placeholder {
+  background-color: rgb(119, 108, 99);
+}
 
 .post-list {
   display: flex;
@@ -21,7 +24,7 @@ body.light-mode .post-list .post .date {
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto auto 1fr;
-  grid-template-areas: "image title" "image date" "image body";
+  grid-template-areas: "image title" "image tags" "image date" "image body";
   color: rgba(240, 240, 240, 0.7333333333);
   padding: 1rem;
   margin-left: -1rem;
@@ -45,13 +48,36 @@ body.light-mode .post-list .post .date {
     box-sizing: border-box;
   }
 }
-.post-list .post .header-image {
-  width: 8rem;
-  height: 8rem;
-  object-fit: cover;
+.post-list .post .header-image-placeholder, .post-list .post .header-image {
+  grid-area: image;
   border-radius: 0.5rem;
   margin-right: 1rem;
-  grid-area: image;
+  width: 8rem;
+  height: 8rem;
+}
+.post-list .post .header-image {
+  object-fit: cover;
+}
+.post-list .post .header-image-placeholder {
+  background-color: rgb(61, 61, 61);
+  display: grid;
+}
+.post-list .post .header-image-placeholder span {
+  place-self: center center;
+  font: "Anton", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.post-list .post .tags {
+  grid-area: tags;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.post-list .post .tags i {
+  margin-top: 4px;
 }
 .post-list .post h2 {
   font-size: 1.5rem;
