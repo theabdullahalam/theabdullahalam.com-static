@@ -1,8 +1,9 @@
 ---
 title: Building an extensible Virtual Assistant using Go - Part 1
-tags: ["post", "dev", "golang"]
+tags: ["dev", "golang"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2024-12-30
 ---
 First thing's first, setting up the project. As it turns out, `golang` is rather unopinionated on how things should be set up. But I did find a couple of guidelines online on how packages, files (and modules, which are different) should be set up. Project setups are a tricky subject any ways, and in my experience the structure changes over time to fit your needs, and you can find your own preferences change after years, so, I followed some of those guidelines and just dived in.
 

@@ -64,7 +64,7 @@ Sometimes, after dual-booting linux using systemd as the bootloader, the
 machine still boots to Windows by default. To fix this, run the
 following command in **Windows Powershell** as administrator:
 
-``` bat
+```bash
 bcdedit /set "{bootmgr}" path "\EFI\systemd\systemd-bootx64.efi"
 ```
 

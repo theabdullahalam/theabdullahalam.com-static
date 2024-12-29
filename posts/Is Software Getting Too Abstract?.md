@@ -1,6 +1,6 @@
 ---
 title: Is Software Getting Too Abstract?
-tags: ["post", "tech", "software", "essay"]
+tags: ["post", "tech", "essay"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
 date: 2022-09-09

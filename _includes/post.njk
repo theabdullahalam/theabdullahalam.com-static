@@ -26,7 +26,7 @@ stylesheet: "/static/css/post.css"
     {% for tag in tags %}
         {% if tag != 'post' %}
             {% for post in collections[tag] %}
-                {% if post.url not in listed_urls and post.url != page.url %}
+                {% if post.url not in listed_urls and post.url != page.url and 'post' in post.data.tags %}
                     {% set listed_urls = listed_urls.concat(post.url) %} {# Add post URL to the list #}
                     <div class="post">
                         <div class="tag"><i class="fa-solid fa-tag"></i> <span class="tag-list">{{ tag }}</span></div>

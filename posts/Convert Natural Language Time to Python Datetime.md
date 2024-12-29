@@ -1,6 +1,6 @@
 ---
 title: Convert Natural Language Time to Python Datetime
-tags: ["post", "python", "guides", "code"]
+tags: ["post", "python", "guides", "dev"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
 date: 2022-11-21

@@ -1,4 +1,4 @@
-@import "vars.scss";
+@use "vars.scss";
 
 // .posts {
 
@@ -7,7 +7,7 @@ body {
         font-size: 4rem;
         margin-top: -6px;
         padding-bottom: 1rem;
-        color: $theme_green;
+        color: vars.$theme_green;
         // color: $text_color_light;
     }
 
@@ -16,6 +16,10 @@ body {
             .post {
                 .date {
                     color: rgba(0, 0, 0, 0.301);
+                }
+
+                .tags {
+                    color: rgba(0, 0, 0, 0.466);
                 }
 
                 .header-image-placeholder {
@@ -43,7 +47,7 @@ body {
                              "image tags"
                              "image date"
                              "image body";
-        color: $text_color;
+        color: vars.$text_color;
         padding: 1rem;
         margin-left: -1rem;
 
@@ -57,7 +61,7 @@ body {
         }
         
         &:hover {
-            outline: 3px solid $theme_green;
+            outline: 3px solid vars.$theme_green;
             box-sizing: border-box;
             transition: all 0.1s ease;
 
@@ -84,7 +88,7 @@ body {
 
             span {
                 place-self: center center;
-                font: $headings_font;
+                font: vars.$headings_font;
                 color: white;
                 font-weight: bold;
                 font-size: 4rem;
@@ -123,7 +127,7 @@ body {
         .date {
             font-family: "Outfit", sans-serif;
             font-size: 0.8rem;
-            color: $date_color;
+            color: vars.$date_color;
             margin-top: 0;
             // padding-top: 0.5rem;
             padding-bottom: 0.5rem;

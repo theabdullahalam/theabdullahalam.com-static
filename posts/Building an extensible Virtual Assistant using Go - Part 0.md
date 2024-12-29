@@ -3,6 +3,7 @@ title: Building an extensible Virtual Assistant using Go - Part 0
 tags: ["post", "dev", "golang"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2024-12-25
 ---
 It's been a while since I learnt a new programming language, but recently, golang caught my attention. The idea of a C-style relatively lower level language that is easy to compile and run on any platform, that builds to a single binary that can be deployed anywhere, sounds quite appealing. 
 
@@ -24,4 +25,4 @@ A virtual assistant using go. Goals:
 Since there is no shortage of virtual assistants out there, this one is going to just be **Another Virtual Assistant,** or, **Ava.**
 
 ## Start Here
-- [[Building an extensible Virtual Assistant using Go - Part 1]]
+- Posts will be added soon. Stay tuned.

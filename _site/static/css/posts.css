@@ -11,6 +11,9 @@ body h1 {
 body.light-mode .post-list .post .date {
   color: rgba(0, 0, 0, 0.301);
 }
+body.light-mode .post-list .post .tags {
+  color: rgba(0, 0, 0, 0.466);
+}
 body.light-mode .post-list .post .header-image-placeholder {
   background-color: rgb(119, 108, 99);
 }
