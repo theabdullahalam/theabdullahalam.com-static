@@ -5,6 +5,7 @@ layout: post
 permalink: "/post/{{ title | slugify }}/"
 header_image: "/media/headers/total_eclipse_2024.jpg"
 excerpt: "A short essay on the experience of witnessing a total solar eclipse"
+date: 2024-04-15
 ---
 *Photograph of the April 8th 2024 Eclipse by
 [\@neohumanity](https://www.instagram.com/neohumanity/)*

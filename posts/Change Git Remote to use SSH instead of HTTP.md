@@ -3,6 +3,7 @@ title: Change Git Remote to use SSH instead of HTTP
 tags: ["post", "python", "django", "guides", "code"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2022-08-30
 ---
 Steps to change the way git accesses the remote, from HTTPS to SSH. This
 is enforced by default lately, but is useful for migrating old projects

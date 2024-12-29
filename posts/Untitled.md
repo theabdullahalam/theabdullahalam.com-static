@@ -3,6 +3,7 @@ title: Untitled
 tags: ["post", "poetry", "english poetry"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2022-08-30
 ---
 Untitled.
 

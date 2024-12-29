@@ -3,6 +3,7 @@ title: Convert Natural Language Time to Python Datetime
 tags: ["post", "python", "guides", "code"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2022-11-21
 ---
 
 In a recent project of mine, I wanted to convert natural language

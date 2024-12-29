@@ -3,6 +3,7 @@ title: Flow - Mihály Csíkszentmihályi
 tags: ["post", "books", "psychology"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2022-10-05
 ---
 This is one of the most important books I have ever read.
 

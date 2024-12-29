@@ -3,6 +3,7 @@ title: The Fog and the Self
 tags: ["post", "essay", "philosophy"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2022-08-30
 ---
 Sometimes, in life, there is a fog around you. It's like you're riding
 on a highway and the weather is changing every few miles. The most

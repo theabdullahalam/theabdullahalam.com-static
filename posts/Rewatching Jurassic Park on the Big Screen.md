@@ -4,6 +4,7 @@ tags: ["post", "film", "essay"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
 header_image: "/media/headers/jurassic_park.jpg"
+date: 2024-03-03
 ---
 Recently, a cinema near my place was screening Jurassic Park - the
 original one from 1993. Since I was born in 1998, I'd only seen this

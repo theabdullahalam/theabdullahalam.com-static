@@ -3,6 +3,7 @@ title: A Walk in the Sky
 tags: ["post", "poetry", "english poetry"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2023-11-08
 ---
 Why is it that\
 feelings only\

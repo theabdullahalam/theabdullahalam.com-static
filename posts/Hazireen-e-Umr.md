@@ -3,6 +3,7 @@ title: Hazireen-e-Umr
 tags: ["post", "poetry", "urdu poetry"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2023-06-08
 ---
 Nafrat ke darr se khayaalon ko chhupaata reh gaya.\
 Chaahat ki chaahat ko yun hi thukraataa reh gaya.

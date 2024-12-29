@@ -3,6 +3,7 @@ title: Drowing in Epiphanies
 tags: ["post", "poetry", "english poetry"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2022-08-30
 ---
 Your eyes gape wide in sleepless nights,\
 Thoughts all racing in despair.\

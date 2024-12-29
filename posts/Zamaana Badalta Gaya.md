@@ -3,6 +3,7 @@ title: Zamaana Badalta Gaya
 tags: ["post", "poetry", "urdu poetry"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2022-08-30
 ---
 zamaana humse badalne ki zidd karta gaya\
 hum se pehle khud zamaanaa badalta gaya

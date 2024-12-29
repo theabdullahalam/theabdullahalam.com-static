@@ -3,6 +3,7 @@ title: how
 tags: ["post", "poetry", "english poetry"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2022-08-30
 ---
 how to fall in love with the inevitable rain\
 if it is going to wash your favourite puddle away?

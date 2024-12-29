@@ -3,6 +3,7 @@ title: Ever Feel Like Poetry?
 tags: ["post", "poetry", "english poetry"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2022-08-30
 ---
 Ever feel like poetry?
 

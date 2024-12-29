@@ -44,9 +44,9 @@
             {{ content | safe }}
         </div>
         <div class="sidebar" id="sidebar">
-            <div class="persistent">
+            {# <div class="persistent">
                 <a href="/posts/all/" class="nav-link {% if tag == 'all' %}selected{% endif %}">all posts</a>
-            </div>
+            </div> #}
 
             <div class="tags">
                 {% for _tag in collections.postTags %}

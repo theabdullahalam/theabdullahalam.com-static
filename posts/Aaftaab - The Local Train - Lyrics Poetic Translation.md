@@ -3,6 +3,7 @@ title: Aaftaab - The Local Train - Lyrics Poetic Translation
 tags: ["post", "poetry", "english poetry", "music"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2023-08-07
 ---
 
 **Aaftaab** is a beautiful song by the band **'The Local Train'**, with

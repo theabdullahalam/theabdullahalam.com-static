@@ -1,30 +1,54 @@
 @import "vars.scss";
 
-img {
-    max-width: 100%;
-}
+body {
 
-.bio {
-    width: 50%;
-}
+    img {
+        max-width: 100%;
+    }
+    
+    h1 {
+        font-size: 5rem;
+        margin-top: -4px;
+        margin-bottom: 1rem;
+        line-height: 6rem;
+    }
+    
+    .bio {
+        
+        width: 50%;
+        margin-top: 0;
+        font-weight: bold;
 
-.popular-tags {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1rem;
-    width: 50%;
+        @media screen and (max-width: 700px) {
+            width: 80%;
+        }
+    }
+    
+    .popular-tags {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        width: 50%;
+        margin-top: 2rem;
 
-    a.tag {
-        text-decoration: none;
-        color: $theme_green;
-        border: 1px solid $theme_green;
-        padding: 0.5rem;
-
-        &:hover {
-            background-color: $theme_green;
-            color: rgba(0, 0, 0, 0.788);
-            transition: all 0.1s ease;
+        @media screen and (max-width: 700px) {
+            width: 80%;
+        }
+    
+        a.tag {
+            text-decoration: none;
+            color: $theme_green;
+            border: 2px solid $theme_green;
+            font-weight: bold;
+            padding: 0.5rem;
+            font-size: 1.2rem;
+    
+            &:hover {
+                background-color: $theme_green;
+                color: rgba(0, 0, 0, 0.788);
+                transition: all 0.1s ease;
+            }
         }
     }
 }

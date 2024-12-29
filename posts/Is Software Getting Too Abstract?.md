@@ -3,6 +3,7 @@ title: Is Software Getting Too Abstract?
 tags: ["post", "tech", "software", "essay"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2022-09-09
 ---
 
 Millenials and Baby Boomers saw the beginnings of the internet and the

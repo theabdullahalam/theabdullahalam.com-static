@@ -3,6 +3,7 @@ title: Forgiving
 tags: ["post", "poetry", "english poetry"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2022-10-17
 ---
 You grew up\
 not knowing\

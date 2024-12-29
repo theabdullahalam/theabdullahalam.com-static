@@ -1,0 +1,20 @@
+todo:
+    
+
+    inbox:
+        deploy to main site
+        add cusdis
+
+
+
+
+done:
+    homepage font and UI
+    better ui on mobile for sidebar dropdown
+    redesign related tags
+    remove all tag
+    remove description
+    fix darkmode
+
+archive:
+    try different fonts for headers

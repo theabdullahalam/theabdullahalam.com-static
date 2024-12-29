@@ -3,6 +3,7 @@ title: Goodbye - A Short Story
 tags: ["post", "short stories", "slice of life"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2022-08-30
 ---
 Goodbye", she said.
 

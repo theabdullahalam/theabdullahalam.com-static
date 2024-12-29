@@ -3,6 +3,7 @@ title: Aazaadi
 tags: ["post", "poetry", "urdu poetry"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2022-09-04
 ---
 
 Kadmon ka tazabzub hai qasoor-e-dil;\

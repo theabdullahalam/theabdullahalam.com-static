@@ -3,6 +3,7 @@ title: Longing for Monsoons
 tags: ["post", "poetry", "english poetry"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2022-08-30
 ---
 When the sky\
 weeps in catharsis,\

@@ -3,6 +3,7 @@ title: Dreams of Tomorrow
 tags: ["post", "poetry", "english poetry"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2023-06-08
 ---
 
 Chasing that\

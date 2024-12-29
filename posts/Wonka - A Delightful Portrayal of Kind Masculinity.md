@@ -1,9 +1,10 @@
 ---
 title: Wonka - A Delightful Portrayal of Kind Masculinity
-tags: ["post", "film", "essay"]
+tags: ["post", "film", "essay", "masculinity"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
 header_image: "/media/headers/wonka.png"
+date: 2023-12-25
 ---
 Popular media today has plenty examples of toxic masculinity as well as
 toxic femininity; the latter being mostly just internalised misogyny.

@@ -3,6 +3,7 @@ title: Unsolicited Travellers
 tags: ["post", "poetry", "english poetry"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2022-08-30
 ---
 I wonder sometimes,\
 am I in somebody's journal?

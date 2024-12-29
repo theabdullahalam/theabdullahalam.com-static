@@ -3,6 +3,7 @@ title: Linux Cheatsheet
 tags: ["post", "cheatsheets", "linux", "dev"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
+date: 2022-08-30
 ---
 An ever-growing collection of linux shell commands I keep revisiting.
 

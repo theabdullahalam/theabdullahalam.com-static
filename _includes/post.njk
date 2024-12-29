@@ -20,7 +20,7 @@ stylesheet: "/static/css/post.css"
 </div>
 
 <div class="related">
-    <h2>Related</h2>
+    <h2 class="related-title">Related</h2>
     {% set listed_urls = [] %} {# Store URLs of displayed posts to prevent duplicates #}
 
     {% for tag in tags %}
@@ -28,10 +28,11 @@ stylesheet: "/static/css/post.css"
             {% for post in collections[tag] %}
                 {% if post.url not in listed_urls and post.url != page.url %}
                     {% set listed_urls = listed_urls.concat(post.url) %} {# Add post URL to the list #}
-                    <a href="{{ post.url }}" class="post">
-                        <h2>{{ post.data.title }}</h2>
+                    <div class="post">
+                        <div class="tag"><i class="fa-solid fa-tag"></i> <span class="tag-list">{{ tag }}</span></div>
+                        <a href="{{ post.url }}" class="post"><h2>{{ post.data.title }}</h2></a>
                         <p class="date">{{ post.date | toReadableDate }}</p>
-                    </a>
+                    </div>
                 {% endif %}
             {% endfor %}
         {% endif %}

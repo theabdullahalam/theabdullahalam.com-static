@@ -46,6 +46,7 @@
 }
 .post .main-content code {
   font-size: 0.8rem;
+  width: 100%;
 }
 .post .main-content code:not([class]) {
   font-size: 1rem;
@@ -54,6 +55,28 @@
   padding-right: 8px;
   padding-top: 4px;
   padding-bottom: 4px;
+}
+
+.related {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 6rem;
+}
+.related .related-title {
+  color: #7da766;
+  font-size: 1.1rem;
+  margin-bottom: -1rem;
+}
+.related a h2 {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+.related a h2:hover {
+  color: #7da766;
+}
+.related .tag {
+  margin-bottom: 0.5rem;
 }
 
 /*# sourceMappingURL=post.css.map */

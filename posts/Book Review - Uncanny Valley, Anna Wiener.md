@@ -4,6 +4,7 @@ tags: ["post", "books", "tech"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
 header_image: "/media/headers/uncanny_valley.jpg"
+date: 2023-07-29
 ---
 Uncanny Valley, a memoir by a woman who worked in publishing, and later
 moved to Silicon Valley, is one of the most well-written thought

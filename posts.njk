@@ -25,7 +25,7 @@ eleventyComputed:
                 <h2>{{ post.data.title }}</h2>
                 <div class="tags"><i class="fa-solid fa-tag"></i> <span class="tag-list">{{ post.data.tags }}</span></div>
                 <p class="date">{{ post.date | toReadableDate }}</p>
-                <p class="body">{{ post.data.excerpt }}</p>
+                {# <p class="body">{{ post.data.excerpt }}</p> #}
             </a>
         {% endif %}
     {% endfor %}
