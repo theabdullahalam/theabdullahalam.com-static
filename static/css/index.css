@@ -2,28 +2,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
-img {
+body img {
   max-width: 100%;
 }
-
-.bio {
-  width: 50%;
+body h1 {
+  font-size: 5rem;
+  margin-top: -4px;
+  margin-bottom: 1rem;
+  line-height: 6rem;
 }
-
-.popular-tags {
+body .bio {
+  width: 50%;
+  margin-top: 0;
+  font-weight: bold;
+}
+@media screen and (max-width: 700px) {
+  body .bio {
+    width: 80%;
+  }
+}
+body .popular-tags {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem;
   width: 50%;
+  margin-top: 2rem;
 }
-.popular-tags a.tag {
+@media screen and (max-width: 700px) {
+  body .popular-tags {
+    width: 80%;
+  }
+}
+body .popular-tags a.tag {
   text-decoration: none;
   color: #7da766;
-  border: 1px solid #7da766;
+  border: 2px solid #7da766;
+  font-weight: bold;
   padding: 0.5rem;
+  font-size: 1.2rem;
 }
-.popular-tags a.tag:hover {
+body .popular-tags a.tag:hover {
   background-color: #7da766;
   color: rgba(0, 0, 0, 0.788);
   transition: all 0.1s ease;
