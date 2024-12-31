@@ -5,6 +5,9 @@
 .light-mode .post .main-content code:not([class]) {
   background: rgb(230, 217, 200);
 }
+.light-mode .post .main-content blockquote {
+  background: rgba(0, 0, 0, 0.103);
+}
 
 .post {
   margin-top: -4px;
@@ -49,6 +52,7 @@
   padding: 2rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
+  margin-right: 0;
   font-family: "Outfit", sans-serif;
 }
 .post .main-content code {

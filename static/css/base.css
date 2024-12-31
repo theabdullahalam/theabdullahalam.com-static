@@ -65,6 +65,11 @@ body .everything {
 @media screen and (max-width: 1200px) {
   body .everything {
     width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .everything {
+    display: flex;
     flex-direction: column;
   }
 }

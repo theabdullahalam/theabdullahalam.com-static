@@ -1,4 +1,4 @@
-@import "vars.scss";
+@use "vars.scss";
 
 body {
     margin: 0;
@@ -8,7 +8,7 @@ body {
 
     padding: 2rem;
     margin-left: 10%;
-    color: $text_color;
+    color: vars.$text_color;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -34,7 +34,7 @@ body {
                 color: rgba(0, 0, 0, 0.15);
 
                 &:hover {
-                    color: $theme_green;
+                    color: vars.$theme_green;
                     transition: all 0.1s ease;
                 }
             }
@@ -43,7 +43,7 @@ body {
                 a {
                     color: rgba(255, 255, 255, 0.432);
                     &:hover {
-                        color: $theme_green;
+                        color: vars.$theme_green;
                         transition: all 0.1s ease;
                     }
                 }
@@ -83,6 +83,10 @@ body {
 
         @media screen and (max-width: 1200px) {
             width: 100%;
+        }
+
+        @media screen and (max-width: 700px) {
+            display: flex;
             flex-direction: column;
         }
     }
@@ -114,7 +118,7 @@ body {
         .site-title {
             // font-family: "Special Elite", cursive;
             display: none;
-            font-family: $headings_font;
+            font-family: vars.$headings_font;
             font-size: 1.2rem;
             font-weight: normal;
             margin-bottom: 14px;
@@ -126,7 +130,7 @@ body {
             cursor: pointer;
 
             &:hover {
-                color: $theme_green;
+                color: vars.$theme_green;
             }
         }
 
@@ -140,10 +144,10 @@ body {
                 margin-top: 4px;
                 background: none;
                 border: none;
-                color: $text_color;
+                color: vars.$text_color;
                 font-size: 1.2rem;
                 margin-bottom: 2px;
-                font-family: $content_font;
+                font-family: vars.$content_font;
                 font-weight: bold;
                 cursor: pointer;
                 padding-top: 1rem;
@@ -170,13 +174,13 @@ body {
         
         a {
             text-decoration: none;
-            color: $text_color_light;
+            color: vars.$text_color_light;
             font-size: 1.1rem;
-            font-family: $headings_font;
+            font-family: vars.$headings_font;
         }
 
         a.selected {
-            color: $theme_green;
+            color: vars.$theme_green;
         }
 
         .persistent, .tags {
@@ -224,30 +228,30 @@ body {
     }
 
     p {
-        font-family: $content_font;
+        font-family: vars.$content_font;
         font-weight: 500;
     }
 
     a {
         text-decoration: none;
-        color: $text_color;
+        color: vars.$text_color;
         transition: all 0.5s ease;
 
         &:hover {
-            color: $theme_green;
+            color: vars.$theme_green;
             transition: all 0.1s ease;
         }
     }
 
     h1, h2, h3 {
-        font-family: $headings_font;
-        color: $headings_color;
+        font-family: vars.$headings_font;
+        color: vars.$headings_color;
     }
 
     .date {
         font-family: "Inter", sans-serif;
         font-size: 0.8rem;
-        color: $text_color_light;
+        color: vars.$text_color_light;
         margin-top: 0;
         margin-bottom: 0;
     }

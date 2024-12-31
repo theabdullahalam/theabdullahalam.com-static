@@ -7,6 +7,10 @@
             code:not([class]) {
                 background: rgb(230, 217, 200);
             }
+
+            blockquote {
+                background: rgba(0, 0, 0, 0.103);
+            }
         }
     }
 }
@@ -74,6 +78,7 @@
             padding: 2rem;
             margin-top: 1rem;
             margin-bottom: 2rem;
+            margin-right: 0;
             font-family: "Outfit", sans-serif;
         }
 

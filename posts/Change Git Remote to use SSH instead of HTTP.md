@@ -1,6 +1,6 @@
 ---
 title: Change Git Remote to use SSH instead of HTTP
-tags: ["post", "python", "django", "guides", "dev"]
+tags: ["post", "guides", "dev"]
 layout: post
 permalink: "/post/{{ title | slugify }}/"
 date: 2022-08-30
