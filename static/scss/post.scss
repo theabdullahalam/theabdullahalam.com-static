@@ -98,6 +98,14 @@
     }
 }
 
+iframe {
+    height: 300px;
+    width: 100%;
+    resize: both;
+    overflow: auto;
+}
+  
+
 .related {
     display: flex;
     flex-direction: column;

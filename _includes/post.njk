@@ -19,6 +19,16 @@ stylesheet: "/static/css/post.css"
     </div>
 </div>
 
+{# <div id="cusdis_thread"
+    data-host="https://cusdis.com"
+    data-app-id="fed44ea8-1bdd-4f74-8b76-3db3620ad006"
+    data-page-id="/post/{{ title | slugify }}"
+    data-page-url="{{ page.url }}"
+    data-page-title="{{ title }}"
+    >
+</div>
+<script async defer src="/static/js/cusdis.es.js"></script> #}
+
 <div class="related">
     <h2 class="related-title">Related</h2>
     {% set listed_urls = [] %} {# Store URLs of displayed posts to prevent duplicates #}
