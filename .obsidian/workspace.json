@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Zamaana Badalta Gaya.md",
+                "file": "posts/A New Perspective on Productivity.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Zamaana Badalta Gaya"
+              "title": "A New Perspective on Productivity"
             }
           }
         ],
@@ -179,6 +179,8 @@
   },
   "active": "1994a855f09bd5da",
   "lastOpenFiles": [
+    "posts/Zamaana Badalta Gaya.md",
+    "posts/A New Perspective on Productivity.md",
     "_site/media/headers/uncanny_valley.jpg",
     "_site/media/headers/jurassic_park.jpg",
     "_site/media/headers/wonka.png",
@@ -195,7 +197,6 @@
     "_site/posts/golang/index.html",
     "_site/static/img/favicon.png",
     "posts/Unsolicited Travellers.md",
-    "posts/Zamaana Badalta Gaya.md",
     "posts/Wonka - A Delightful Portrayal of Kind Masculinity.md",
     "posts/Wonka Masculinity.md",
     "posts/Untitled.md",
