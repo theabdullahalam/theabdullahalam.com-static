@@ -1,0 +1,89 @@
+
+$background: rgb(30, 43, 30);
+$accent: rgb(150, 224, 150);
+
+html {
+    scroll-behavior: smooth;
+    background: $background;
+    color: white;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Space Mono", serif;
+}
+
+
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "intro image";
+
+
+
+    .intro {
+        margin-top: -4rem;
+
+        grid-area: intro;
+        place-self: center center;
+
+        p, h1 {
+            margin: 0;
+        }
+
+        .pre-title {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        h1 {
+            font-size: 4rem;
+            color: $accent;
+            line-height: 4rem;
+        }
+
+        .subtitle {
+            margin-top: 2rem;
+        }
+
+    }
+
+    @keyframes moveShadow {
+        0% {
+            box-shadow: 0px 0px 0px 0px rgb(150, 224, 150);
+        }
+        100% {
+            box-shadow: 80px 40px 0px 0px rgb(150, 224, 150);
+        }
+    }
+
+    .abdullah-image {
+        margin-top: -4rem;
+        grid-area: image;
+        place-self: center center;
+        object-fit: cover;
+        height: 20rem;
+        width: 20rem;
+        border-radius: 10rem;
+        border: 4px solid white;
+        outline: none;
+
+        box-shadow: 80px 40px 0px 0px rgb(150, 224, 150);
+
+        animation: 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0s 1 moveShadow;
+    }
+
+}
+
+
+
+img {
+    width: 20rem;
+}
