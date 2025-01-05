@@ -87,6 +87,7 @@ body {
 }
 
 .projects .project-list {
+  margin-right: 10rem;
   margin-top: 4rem;
   padding-bottom: 20rem;
   display: flex;
@@ -119,6 +120,9 @@ body {
 .projects .project-list .project .description {
   padding-left: 8rem;
   width: 20rem;
+}
+.projects .project-list .project .description.yodaplus {
+  padding-left: 4rem;
 }
 .projects .project-list .project:nth-child(even) {
   flex-direction: row-reverse;
