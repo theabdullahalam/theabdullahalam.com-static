@@ -15,6 +15,7 @@ html, body {
 
 body {
     font-family: "Space Mono", serif;
+    padding-bottom: 20rem;
 }
 
 
@@ -92,6 +93,9 @@ body {
     height: 4rem;
     padding: 0 8rem;
     box-sizing: border-box;
+    z-index: 3;
+
+    background: rgba(30, 43, 30, 0.932);
 
 
     display: flex;
@@ -104,6 +108,79 @@ body {
     
 }
 
+.section {
+    padding: 0 10%;
+    
+    *{
+        z-index: 2;
+    }
+}
+
+.projects {
+
+    .project-list {
+
+        margin-top: 4rem;
+        padding-bottom: 20rem;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20rem;
+
+
+        .project {
+
+            display: flex;
+            width: 100%;
+
+            .screenshots {
+                display: grid;
+                grid-template-areas: "everything";
+
+                .screenshot {
+                    grid-area: everything;
+                    border: 8px solid rgb(39, 39, 39);
+                    outline: 2px solid rgb(165, 165, 165);
+                    border-radius: 4px;
+                    
+                }
+
+                .desktop-screenshot {
+                    width: 40rem;
+                }
+
+                .mobile-screenshot {
+                    height: 20rem;
+                    place-self: end end;
+                    margin-bottom: -8rem;
+                    margin-right: -4rem;
+                }
+            }
+
+
+            .description {
+                padding-left: 8rem;
+                width: 20rem;
+            }
+
+
+            &:nth-child(even) {
+                flex-direction: row-reverse;
+                text-align: right;
+
+                .description{
+                    padding-left: 0;
+                    padding-right: 8rem;
+                }
+            }
+        }
+
+
+
+
+    }
+}
+
 
 a {
     text-decoration: none;
@@ -112,4 +189,75 @@ a {
     &:hover {
         color: $accent;
     }
+}
+
+.button-link {
+    color: $accent;
+    border: 1px solid $accent;
+    padding: 0.25rem 1rem;
+    font-weight: bold;
+
+    &:hover {
+        color: $background;
+        background: $accent;
+    }
+}
+
+
+
+.white-ring{
+    border: 4px solid rgba(255, 255, 255, 0.082);
+    position: fixed;
+    z-index: 0;
+}
+
+.white-square {
+    height: 6rem;
+    width: 6rem;
+    border: 4px solid rgba(255, 255, 255, 0.137);
+    position: fixed;
+    z-index: 0;
+    bottom: 12vh;
+    right: 16vw;
+}
+
+.white-diamond {
+    height: 2rem;
+    width: 2rem;
+    border: 4px solid rgba(255, 255, 255, 0.137);
+    position: fixed;
+    z-index: 0;
+    bottom: 26vh;
+    left: 20vw;
+
+    
+    transform: rotate(45deg);
+}
+
+.big-ring {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 6rem;
+
+    top: 10vh;
+    left: 10vw;
+
+}
+
+.medium-ring {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 4rem;
+
+    top: 18vh;
+    left: 16vw;
+}
+
+.small-ring {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2rem;
+
+    top: 24vh;
+    left: 12vw;
 }
