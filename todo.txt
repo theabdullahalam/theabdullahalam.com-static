@@ -1,9 +1,5 @@
 todo:
-    
-
-    inbox:
-        deploy to main site
-        add cusdis
+    add scattered decor on dev portfolio
 
 
 
@@ -15,6 +11,8 @@ done:
     remove all tag
     remove description
     fix darkmode
+    deploy to main site
 
 archive:
+    add cusdis
     try different fonts for headers
