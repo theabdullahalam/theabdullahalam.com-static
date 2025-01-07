@@ -1,10 +1,13 @@
 todo:
-    add scattered decor on dev portfolio
-
+    create project pages
+    maybe add solarscale
+    mobile responsive
+    compress images
 
 
 
 done:
+    add scattered decor on dev portfolio
     homepage font and UI
     better ui on mobile for sidebar dropdown
     redesign related tags
