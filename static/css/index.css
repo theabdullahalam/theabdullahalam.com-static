@@ -47,5 +47,14 @@ body .popular-tags a.tag:hover {
   color: rgba(0, 0, 0, 0.788);
   transition: all 0.1s ease;
 }
+body h2 {
+  margin-top: 3rem;
+}
+body .contact-list {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
 
 /*# sourceMappingURL=index.css.map */

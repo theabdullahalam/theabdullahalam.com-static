@@ -51,4 +51,18 @@ body {
             }
         }
     }
+
+
+    h2 {
+
+        margin-top: 3rem;
+
+    }
+    .contact-list {
+        margin-bottom: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+
 }
