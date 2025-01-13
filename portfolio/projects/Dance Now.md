@@ -3,6 +3,7 @@ title: Dance Now
 permalink: /portfolio/projects/{{ title | slugify }}/
 layout: project
 desktop_screenshot: /media/images/dancenow-desktop.png
+back_to_portfolio: "#dancenow-project"
 ---
 During my time working as a dance instructor for an Arthur Murray studio in Ajax, I built an automatic event scheduling system.
 

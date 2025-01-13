@@ -4,6 +4,7 @@ permalink: /portfolio/projects/{{ title | slugify }}/
 layout: project
 desktop_screenshot: /media/images/garden-desktop.png
 mobile_screenshot: /media/images/garden-mobile.png
+back_to_portfolio: "#digital-garden-project"
 ---
 This portfolio is part of my digital garden - a simple website structured like a collection of interconnected notes and essays and cheatsheets and quotes and anything and everything that catches my interest and I think is worth sharing.
 

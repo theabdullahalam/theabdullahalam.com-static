@@ -4,6 +4,7 @@ permalink: /portfolio/projects/{{ title | slugify }}/
 layout: project
 desktop_screenshot: /media/images/sp-desktop.png
 mobile_screenshot: /media/images/sp-mobile.png
+back_to_portfolio: "#sentient-pixels-project"
 ---
 [My travel blog](https://sentient-pixels.com) was a challenge I gave myself to build a website without using any CSS or JS libraries, and style and make everything functional myself. In the end, I was satisfied with how it turned out, so I deployed it live and post my travel blogs on there.
 

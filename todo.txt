@@ -1,12 +1,19 @@
 todo:
-    create project pages
+    create a page for portfolios
+
     maybe add solarscale
-    mobile responsive
     compress images
 
 
 
 done:
+
+    12-01-2024
+        'back to portfolio' should go to ids
+        mobile responsive
+        create project pages
+
+
     add scattered decor on dev portfolio
     homepage font and UI
     better ui on mobile for sidebar dropdown

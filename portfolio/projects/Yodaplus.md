@@ -3,6 +3,7 @@ title: Yodaplus
 permalink: /portfolio/projects/{{ title | slugify }}/
 layout: project
 desktop_screenshot: /media/images/yodaplus.png
+back_to_portfolio: "#yodaplus-project"
 ---
 During my time working at [Yodaplus,](https://yodaplus.com/) I worked on their blockchain tokenisation time as a Senior Full-Stack Engineer. 
 
