@@ -35,6 +35,7 @@ body {
 }
 .screenshots .desktop-screenshot {
   width: 100%;
+  box-sizing: border-box;
 }
 .screenshots .mobile-screenshot {
   height: 40rem;
@@ -129,6 +130,50 @@ a:hover {
   border-radius: 2rem;
   top: 24vh;
   left: 12vw;
+}
+
+@media screen and (max-width: 1800px) {
+  .content {
+    padding: 0 5%;
+  }
+  .screenshots .desktop-screenshot {
+    max-width: 100%;
+  }
+  .screenshots .mobile-screenshot {
+    height: 30rem;
+    margin-right: 2rem;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .screenshots .mobile-screenshot {
+    height: 25rem;
+    margin-right: 2rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .screenshots .mobile-screenshot {
+    height: 20rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .info p, .info img {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .screenshots .mobile-screenshot {
+    height: 15rem;
+    margin-top: -10rem;
+  }
+  .info p, .info img {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .screenshots .mobile-screenshot {
+    height: 10rem;
+    margin-right: 0rem;
+  }
 }
 
 /*# sourceMappingURL=project.css.map */

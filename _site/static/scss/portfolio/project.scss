@@ -49,6 +49,7 @@ body {
 
     .desktop-screenshot {
         width: 100%;
+        box-sizing: border-box;
     }
 
     .mobile-screenshot {
@@ -166,4 +167,81 @@ a {
 
     top: 24vh;
     left: 12vw;
+}
+
+
+
+@media screen and (max-width: 1800px) {
+    
+    .content {
+        padding: 0 5%;
+    }
+
+    .screenshots {
+
+        .desktop-screenshot {
+            max-width: 100%;
+        }
+
+        .mobile-screenshot {
+            height: 30rem;
+            margin-right: 2rem;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .screenshots {
+
+        .mobile-screenshot {
+            height: 25rem;
+            margin-right: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .screenshots {
+
+        .mobile-screenshot {
+            height: 20rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .info {
+
+        p, img {
+            max-width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .screenshots {
+
+        .mobile-screenshot {
+            height: 15rem;
+            margin-top: -10rem;
+        }
+    }
+
+    .info {
+
+        p, img {
+            max-width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .screenshots {
+
+        .mobile-screenshot {
+            height: 10rem;
+            margin-right: 0rem;
+        }
+    }
 }
