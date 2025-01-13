@@ -8,7 +8,7 @@ todo:
 
 done:
 
-    12-01-2024
+    12-01-2025
         'back to portfolio' should go to ids
         mobile responsive
         create project pages
