@@ -21,6 +21,7 @@ body {
 
 
 .hero {
+
     width: 100%;
     height: 100vh;
     display: grid;
@@ -317,4 +318,122 @@ a {
 
     top: 24vh;
     left: 12vw;
+}
+
+
+
+
+
+
+
+
+
+
+// mobile styles
+@media screen and (max-width: 1200px) {
+    
+    .hero {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .intro {
+            margin-top: 4rem;
+            padding: 0 2rem;
+        }
+
+        .abdullah-image {
+            margin-top: 4rem;
+            margin-left: -60px;
+        }
+    }
+
+
+
+
+    .menu {
+        gap: 2rem;
+    }
+
+    .section {
+        padding: 0 2rem;
+    }
+
+    .projects {
+        .project-list {
+            margin-right: 0;
+            gap: 10rem;
+
+            .project {
+                flex-direction: column;
+
+                .screenshots {
+                    
+                    .desktop-screenshot {
+                        width: 90%;
+                    }
+
+                    .mobile-screenshot {
+                        height: 12rem;
+                        margin-right: 0;
+                        margin-bottom: -2rem;
+                    }
+
+                }
+
+                .description {
+                    padding-left: 0;
+
+                    &.yodaplus {
+                        padding-left: 0;
+                    }
+                }
+
+                &:nth-child(even) {
+                    flex-direction: column;
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+
+
+
+    .skills {
+
+        max-width: 100%;
+
+        h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            margin-top: 0.5rem;
+        }
+
+        .skill-list {
+            gap: 1rem;
+        }
+    }
+
+
+    .contact {
+        h1 {
+            margin-bottom: 0.25rem;
+        }
+
+        p {
+            margin-top: 0.25rem;
+        }
+
+        .contact-list {
+            flex-direction: column;
+            margin-bottom: 2rem;
+        }
+    }
+
+
+
 }
