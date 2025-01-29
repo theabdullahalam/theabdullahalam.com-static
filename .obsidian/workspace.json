@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/A New Perspective on Productivity.md",
+                "file": "posts/How To Install PostgreSQL on Arch Linux.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "A New Perspective on Productivity"
+              "title": "How To Install PostgreSQL on Arch Linux"
             }
           }
         ],
@@ -179,23 +179,30 @@
   },
   "active": "1994a855f09bd5da",
   "lastOpenFiles": [
-    "posts/Zamaana Badalta Gaya.md",
-    "posts/A New Perspective on Productivity.md",
-    "_site/media/headers/uncanny_valley.jpg",
-    "_site/media/headers/jurassic_park.jpg",
-    "_site/media/headers/wonka.png",
-    "_site/static/css/base.css.map",
-    "_site/static/css/vars.css.map",
-    "_site/static/css/vars.css",
-    "_site/media/headers/total_eclipse_2024.jpg",
     "_site/posts/populartags/index.html",
     "_site/posts/populartags",
     "_site/posts/posttags/index.html",
     "_site/posts/posttags",
     "_site/posts/reference/index.html",
     "_site/posts/reference",
-    "_site/posts/golang/index.html",
+    "_site/posts/productivity/index.html",
+    "_site/posts/productivity",
+    "_site/posts/masculinity/index.html",
+    "_site/posts/masculinity",
+    "_site/posts/philosophy/index.html",
     "_site/static/img/favicon.png",
+    "_site/media/logos/winter-bg.avif",
+    "_site/media/logos/theabdullahalam-green.png",
+    "_site/media/logos/scss.png",
+    "_site/media/logos/python-logo.png",
+    "_site/media/logos/linux.png",
+    "_site/media/logos/postgresql.png",
+    "_site/media/logos/node.webp",
+    "_site/media/logos/nginx.webp",
+    "_site/media/logos/insta.png",
+    "posts/A New Perspective on Productivity.md",
+    "posts/How To Install PostgreSQL on Arch Linux.md",
+    "posts/Zamaana Badalta Gaya.md",
     "posts/Unsolicited Travellers.md",
     "posts/Wonka - A Delightful Portrayal of Kind Masculinity.md",
     "posts/Wonka Masculinity.md",
@@ -217,12 +224,6 @@
     "posts/Help Me.md",
     "posts/Hazireen-e-Umr.md",
     "posts/Goodbye - A Short Story.md",
-    "posts/Forgiving.md",
-    "posts/Flow - Mihály Csíkszentmihályi.md",
-    "posts/Ever Feel Like Poetry?.md",
-    "media/headers/jurassic_park.jpg",
-    "media/headers/uncanny_valley.jpg",
-    "_site/media/headers/PXL_20230729_212151140.jpg",
-    "media/headers/PXL_20230729_212151140.jpg"
+    "posts/Forgiving.md"
   ]
 }

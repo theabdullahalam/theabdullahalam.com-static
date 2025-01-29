@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>slice of life - theabdullahalam.com</title>
+    <title>How To Install PostgreSQL on Arch Linux</title>
 
     <link rel="icon" type="image/x-icon" href="/static/img/favicon.png">
     
     <link rel="stylesheet" href="/static/css/base.css">
-    <link rel="stylesheet" href="/static/css/posts.css">
+    <link rel="stylesheet" href="/static/css/post.css">
     
     
     <link 
@@ -44,24 +44,165 @@
         <div class="content">
             
             
-<h1><i class="fa-solid fa-tag"></i> slice of life</h1>
-<div class="post-list">
+<div class="post">
+    <div class="heading">
+        
+        <h1>How To Install PostgreSQL on Arch Linux</h1>
+    </div>
+    <div class="dates">
+        <p class="date">30 August, 2022</p>
+    </div>
+    <div class="main-content">
+<p>The Arch Wiki is fantastic. However, some of the pages have this tendency to require the user to free-fall through links on other pages to ensure robust installations of things. In my experience, the <code>PostGreSQL</code> page is one such example.</p>
+<p>Here is a simple guide on how to install PostgreSQL on Arch Linux.</p>
+<h1>Install the package</h1>
+<p>Use <code>pacman</code> or your favorite package manager install the <code>postgresql</code> package:</p>
+<pre><code class="language-bash">sudo pacman -S postgresql
+</code></pre>
+<p>This will install PostgreSQL on your system, and create the <code>postgres</code> user.</p>
+<h1>Initialize the database</h1>
+<p>Switch to the <code>postgres</code> user:</p>
+<pre><code class="language-bash">sudo su postgres
+</code></pre>
+<p>As the <code>postgres</code> user, run the following command to initialise the database cluster:</p>
+<pre><code class="language-bash"># this command must be run as the postgres user
+initdb -D /var/lib/postgres/data
+</code></pre>
+<p>Switch back to your regular user:</p>
+<pre><code class="language-bash"># as the postgres user
+exit
+</code></pre>
+<h1>Start and enable the postgresql service</h1>
+<pre><code class="language-bash">systemctl start postgresql.service
+systemctl enable postgresql.service
+</code></pre>
+<h1>Create a user</h1>
+<p>To create a user, you must switch back to the postgres user:</p>
+<pre><code class="language-bash">sudo su postgres
+</code></pre>
+<p>And now, you can create a user:</p>
+<pre><code class="language-bash"># as the postgres user
+createuser --interactive
+</code></pre>
+<p>This will prompt you for a username and whether you wish the user to be a superuser. Answer as per your needs. If you name the user the same as your linux user, then you will be able to create databases and access the psql shell without having to switch to the <code>postgres</code> user first.</p>
+<p>If you wish to set a password for your user, log in to to the psql shell:</p>
+<pre><code class="language-bash"># as the postgres user
+psql
+</code></pre>
+<p>And in the psql shell, set the password for your user:</p>
+<pre><code class="language-sql">alter user &lt;username&gt; with encrypted password '&lt;password&gt;';
+</code></pre>
+<p>And now, you can press <code>Ctrl+D</code> to exit the psql shell and the postgres user shell, till you reach your own user shell.</p>
+<h1>Creating a database</h1>
+<p>If your database user has the same name as your linux user:</p>
+<pre><code class="language-bash"># directly from your regular shell
+createdb db_name
+</code></pre>
+<p>If your database user has a different name to your linux user:</p>
+<pre><code class="language-bash"># switch to the postgres user
+sudo su postgres
+
+# and create db
+createdb db_name -O user_name
+</code></pre>
+<h1>Prevent updates from breaking your installation</h1>
+<p>If PostgreSQL updates to a newer major version, your existing database format will not work with it, and manual intervention is required for upgrading. To prevent accidentally updating PostgreSQL, open <code>/etc/pacman.conf</code>, and add <code>postgresql</code> to the <code>IgnorePkg</code> list:</p>
+<pre><code class="language-python"># /etc/pacman.conf
+IgnorePkg=postgresql
+</code></pre>
+
+    </div>
+</div>
+
+
+
+<div class="related">
+    <h2 class="related-title">Related</h2>
+     
+
     
         
-            <a href="/post/goodbye-a-short-story/" class="post">
+    
+        
+            
                 
-                    <div class="header-image-placeholder">
-                        <span>G</span>
+            
+                
+                     
+                    <div class="post">
+                        <div class="tag"><i class="fa-solid fa-tag"></i> <span class="tag-list">cheatsheets</span></div>
+                        <a href="/post/linux-cheatsheet/" class="post"><h2>Linux Cheatsheet</h2></a>
+                        <p class="date">30 August, 2022</p>
                     </div>
                 
-                <h2>Goodbye - A Short Story</h2>
-                <div class="tags"><i class="fa-solid fa-tag"></i> <span class="tag-list">post,short stories,slice of life</span></div>
-                <p class="date">30 August, 2022</p>
+            
                 
-            </a>
+                     
+                    <div class="post">
+                        <div class="tag"><i class="fa-solid fa-tag"></i> <span class="tag-list">cheatsheets</span></div>
+                        <a href="/post/django-cheatsheet/" class="post"><h2>Django Cheatsheet</h2></a>
+                        <p class="date">19 November, 2022</p>
+                    </div>
+                
+            
+        
+    
+        
+            
+                
+            
+                
+            
+        
+    
+        
+            
+                
+                     
+                    <div class="post">
+                        <div class="tag"><i class="fa-solid fa-tag"></i> <span class="tag-list">dev</span></div>
+                        <a href="/post/change-git-remote-to-use-ssh-instead-of-http/" class="post"><h2>Change Git Remote to use SSH instead of HTTP</h2></a>
+                        <p class="date">30 August, 2022</p>
+                    </div>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                     
+                    <div class="post">
+                        <div class="tag"><i class="fa-solid fa-tag"></i> <span class="tag-list">dev</span></div>
+                        <a href="/post/convert-natural-language-time-to-python-datetime/" class="post"><h2>Convert Natural Language Time to Python Datetime</h2></a>
+                        <p class="date">21 November, 2022</p>
+                    </div>
+                
+            
+                
+                     
+                    <div class="post">
+                        <div class="tag"><i class="fa-solid fa-tag"></i> <span class="tag-list">dev</span></div>
+                        <a href="/post/building-an-extensible-virtual-assistant-using-go-part-0/" class="post"><h2>Building an extensible Virtual Assistant using Go - Part 0</h2></a>
+                        <p class="date">25 December, 2024</p>
+                    </div>
+                
+            
+                
+            
+        
+    
+        
+            
+                
+            
         
     
 </div>
+
+
         </div>
         <div class="sidebar" id="sidebar">
             
@@ -72,7 +213,7 @@
                         
                             <a 
                                 href="/posts/arch/" 
-                                class="nav-link "
+                                class="nav-link selected"
                             >
                                 arch
                             </a>
@@ -105,7 +246,7 @@
                         
                             <a 
                                 href="/posts/cheatsheets/" 
-                                class="nav-link "
+                                class="nav-link selected"
                             >
                                 cheatsheets
                             </a>
@@ -116,7 +257,7 @@
                         
                             <a 
                                 href="/posts/dev/" 
-                                class="nav-link "
+                                class="nav-link selected"
                             >
                                 dev
                             </a>
@@ -193,7 +334,7 @@
                         
                             <a 
                                 href="/posts/linux/" 
-                                class="nav-link "
+                                class="nav-link selected"
                             >
                                 linux
                             </a>
@@ -316,7 +457,7 @@
                         
                             <a 
                                 href="/posts/slice-of-life/" 
-                                class="nav-link selected"
+                                class="nav-link "
                             >
                                 slice of life
                             </a>
