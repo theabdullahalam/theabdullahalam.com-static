@@ -7,7 +7,7 @@ stylesheet: "/static/css/post.css"
 <div class="post">
     <div class="heading">
         {% if header_image %}
-          <img src="{{ header_image }}" alt="{{ title }}" class="header-image"/>
+        <img src="{{ header_image }}" alt="{{ title }}" class="header-image" />
         {% endif %}
         <h1>{{ title }}</h1>
     </div>
@@ -15,37 +15,6 @@ stylesheet: "/static/css/post.css"
         <p class="date">{{ page.date | toReadableDate }}</p>
     </div>
     <div class="main-content">
-{{ content | safe }}
+        {{ content | safe }}
     </div>
 </div>
-
-{# <div id="cusdis_thread"
-    data-host="https://cusdis.com"
-    data-app-id="fed44ea8-1bdd-4f74-8b76-3db3620ad006"
-    data-page-id="/post/{{ title | slugify }}"
-    data-page-url="{{ page.url }}"
-    data-page-title="{{ title }}"
-    >
-</div>
-<script async defer src="/static/js/cusdis.es.js"></script> #}
-
-<div class="related">
-    <h2 class="related-title">Related</h2>
-    {% set listed_urls = [] %} {# Store URLs of displayed posts to prevent duplicates #}
-
-    {% for tag in tags %}
-        {% if tag != 'post' %}
-            {% for post in collections[tag] %}
-                {% if post.url not in listed_urls and post.url != page.url and 'post' in post.data.tags %}
-                    {% set listed_urls = listed_urls.concat(post.url) %} {# Add post URL to the list #}
-                    <div class="post">
-                        <div class="tag"><i class="fa-solid fa-tag"></i> <span class="tag-list">{{ tag }}</span></div>
-                        <a href="{{ post.url }}" class="post"><h2>{{ post.data.title }}</h2></a>
-                        <p class="date">{{ post.date | toReadableDate }}</p>
-                    </div>
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-    {% endfor %}
-</div>
-

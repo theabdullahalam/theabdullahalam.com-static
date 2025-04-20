@@ -6,55 +6,9 @@ body img {
   max-width: 100%;
 }
 body h1 {
-  font-size: 5rem;
   margin-top: -4px;
   margin-bottom: 1rem;
-  line-height: 6rem;
-}
-body .bio {
-  width: 50%;
-  margin-top: 0;
-  font-weight: bold;
-}
-@media screen and (max-width: 700px) {
-  body .bio {
-    width: 80%;
-  }
-}
-body .popular-tags {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 1rem;
-  width: 50%;
-  margin-top: 2rem;
-}
-@media screen and (max-width: 700px) {
-  body .popular-tags {
-    width: 80%;
-  }
-}
-body .popular-tags a.tag {
-  text-decoration: none;
-  color: #7da766;
-  border: 2px solid #7da766;
-  font-weight: bold;
-  padding: 0.5rem;
-  font-size: 1.2rem;
-}
-body .popular-tags a.tag:hover {
-  background-color: #7da766;
-  color: rgba(0, 0, 0, 0.788);
-  transition: all 0.1s ease;
-}
-body h2 {
-  margin-top: 3rem;
-}
-body .contact-list {
-  margin-bottom: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=index.css.map */

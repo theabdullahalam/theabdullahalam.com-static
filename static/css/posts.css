@@ -3,19 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 body h1 {
-  font-size: 4rem;
+  font-size: 1rem;
   margin-top: -6px;
   padding-bottom: 1rem;
-  color: #7da766;
-}
-body.light-mode .post-list .post .date {
-  color: rgba(0, 0, 0, 0.301);
-}
-body.light-mode .post-list .post .tags {
-  color: rgba(0, 0, 0, 0.466);
-}
-body.light-mode .post-list .post .header-image-placeholder {
-  background-color: rgb(119, 108, 99);
 }
 
 .post-list {
@@ -24,11 +14,8 @@ body.light-mode .post-list .post .header-image-placeholder {
   gap: 3px;
 }
 .post-list .post {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto auto 1fr;
-  grid-template-areas: "image title" "image tags" "image date" "image body";
-  color: rgba(240, 240, 240, 0.7333333333);
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
   margin-left: -1rem;
   border-radius: 0.2rem;
@@ -50,27 +37,6 @@ body.light-mode .post-list .post .header-image-placeholder {
   .post-list .post:hover {
     box-sizing: border-box;
   }
-}
-.post-list .post .header-image-placeholder, .post-list .post .header-image {
-  grid-area: image;
-  border-radius: 0.5rem;
-  margin-right: 1rem;
-  width: 8rem;
-  height: 8rem;
-}
-.post-list .post .header-image {
-  object-fit: cover;
-}
-.post-list .post .header-image-placeholder {
-  background-color: rgb(61, 61, 61);
-  display: grid;
-}
-.post-list .post .header-image-placeholder span {
-  place-self: center center;
-  font: "Anton", sans-serif;
-  color: white;
-  font-weight: bold;
-  font-size: 4rem;
 }
 .post-list .post .tags {
   grid-area: tags;

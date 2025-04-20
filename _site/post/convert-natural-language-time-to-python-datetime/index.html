@@ -38,7 +38,6 @@
         <div class="header">
             <a href="/"><img src="/static/img/favicon.png" class="site-logo" /></a>
             <a href="/"><h1 class="site-title">theabdullahalam.com</h1></a>
-            <i class="fa-solid fa-circle-half-stroke dark-mode-toggle" id="light-mode-toggle"></i>
             <button onclick="toggleSidebar()" class="toggle-sidebar"><i class="fa-solid fa-bars"></i></button>
         </div>
         <div class="content">
@@ -53,7 +52,7 @@
         <p class="date">21 November, 2022</p>
     </div>
     <div class="main-content">
-<p>In a recent project of mine, I wanted to convert natural language
+        <p>In a recent project of mine, I wanted to convert natural language
 dates/times, like &quot;next monday&quot;, &quot;tomorrow night&quot; or &quot;five days from
 now&quot; to python <code>datetime</code> objects. My first thought was to look at NLP
 libraries like <code>spaCy</code>, but <code>spaCy</code> does not have this feature. After
@@ -77,375 +76,292 @@ dt = datetime(*time_struct[:6])
     </div>
 </div>
 
-
-
-<div class="related">
-    <h2 class="related-title">Related</h2>
-     
-
-    
-        
-    
-        
-            
-                
-                     
-                    <div class="post">
-                        <div class="tag"><i class="fa-solid fa-tag"></i> <span class="tag-list">python</span></div>
-                        <a href="/post/django-cheatsheet/" class="post"><h2>Django Cheatsheet</h2></a>
-                        <p class="date">19 November, 2022</p>
-                    </div>
-                
-            
-                
-            
-        
-    
-        
-            
-                
-                     
-                    <div class="post">
-                        <div class="tag"><i class="fa-solid fa-tag"></i> <span class="tag-list">guides</span></div>
-                        <a href="/post/change-git-remote-to-use-ssh-instead-of-http/" class="post"><h2>Change Git Remote to use SSH instead of HTTP</h2></a>
-                        <p class="date">30 August, 2022</p>
-                    </div>
-                
-            
-                
-            
-                
-            
-        
-    
-        
-            
-                
-            
-                
-                     
-                    <div class="post">
-                        <div class="tag"><i class="fa-solid fa-tag"></i> <span class="tag-list">dev</span></div>
-                        <a href="/post/how-to-install-postgresql-on-arch-linux/" class="post"><h2>How To Install PostgreSQL on Arch Linux</h2></a>
-                        <p class="date">30 August, 2022</p>
-                    </div>
-                
-            
-                
-                     
-                    <div class="post">
-                        <div class="tag"><i class="fa-solid fa-tag"></i> <span class="tag-list">dev</span></div>
-                        <a href="/post/linux-cheatsheet/" class="post"><h2>Linux Cheatsheet</h2></a>
-                        <p class="date">30 August, 2022</p>
-                    </div>
-                
-            
-                
-            
-                
-            
-                
-                     
-                    <div class="post">
-                        <div class="tag"><i class="fa-solid fa-tag"></i> <span class="tag-list">dev</span></div>
-                        <a href="/post/building-an-extensible-virtual-assistant-using-go-part-0/" class="post"><h2>Building an extensible Virtual Assistant using Go - Part 0</h2></a>
-                        <p class="date">25 December, 2024</p>
-                    </div>
-                
-            
-                
-            
-        
-    
-</div>
-
-
         </div>
-        <div class="sidebar" id="sidebar">
-            
-
-            <div class="tags">
-                
-                    
-                        
-                            <a 
-                                href="/posts/arch/" 
-                                class="nav-link "
-                            >
-                                arch
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/astronomy/" 
-                                class="nav-link "
-                            >
-                                astronomy
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/books/" 
-                                class="nav-link "
-                            >
-                                books
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/cheatsheets/" 
-                                class="nav-link "
-                            >
-                                cheatsheets
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/dev/" 
-                                class="nav-link selected"
-                            >
-                                dev
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/django/" 
-                                class="nav-link "
-                            >
-                                django
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/english-poetry/" 
-                                class="nav-link "
-                            >
-                                english poetry
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/essay/" 
-                                class="nav-link "
-                            >
-                                essay
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/film/" 
-                                class="nav-link "
-                            >
-                                film
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/golang/" 
-                                class="nav-link "
-                            >
-                                golang
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/guides/" 
-                                class="nav-link selected"
-                            >
-                                guides
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/linux/" 
-                                class="nav-link "
-                            >
-                                linux
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/masculinity/" 
-                                class="nav-link "
-                            >
-                                masculinity
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/music/" 
-                                class="nav-link "
-                            >
-                                music
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/pages/" 
-                                class="nav-link "
-                            >
-                                pages
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/philosophy/" 
-                                class="nav-link "
-                            >
-                                philosophy
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/poetry/" 
-                                class="nav-link "
-                            >
-                                poetry
-                            </a>
-                        
-                    
-                
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/productivity/" 
-                                class="nav-link "
-                            >
-                                productivity
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/psychology/" 
-                                class="nav-link "
-                            >
-                                psychology
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/python/" 
-                                class="nav-link selected"
-                            >
-                                python
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/reference/" 
-                                class="nav-link "
-                            >
-                                reference
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/short-stories/" 
-                                class="nav-link "
-                            >
-                                short stories
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/slice-of-life/" 
-                                class="nav-link "
-                            >
-                                slice of life
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/tech/" 
-                                class="nav-link "
-                            >
-                                tech
-                            </a>
-                        
-                    
-                
-                    
-                        
-                            <a 
-                                href="/posts/urdu-poetry/" 
-                                class="nav-link "
-                            >
-                                urdu poetry
-                            </a>
-                        
-                    
-                
-            </div>
-        </div>
-        <div class="footer"></div>
+        <!-- <div class="sidebar" id="sidebar"> -->
+        <!--      -->
+        <!---->
+        <!--     <div class="tags"> -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/arch/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         arch -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/astronomy/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         astronomy -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/books/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         books -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/cheatsheets/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         cheatsheets -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/dev/"  -->
+        <!--                         class="nav-link selected" -->
+        <!--                     > -->
+        <!--                         dev -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/django/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         django -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/english-poetry/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         english poetry -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/essay/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         essay -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/film/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         film -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/golang/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         golang -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/guides/"  -->
+        <!--                         class="nav-link selected" -->
+        <!--                     > -->
+        <!--                         guides -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/linux/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         linux -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/masculinity/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         masculinity -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/music/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         music -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/pages/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         pages -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/philosophy/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         philosophy -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/poetry/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         poetry -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/productivity/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         productivity -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/psychology/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         psychology -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/python/"  -->
+        <!--                         class="nav-link selected" -->
+        <!--                     > -->
+        <!--                         python -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/reference/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         reference -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/short-stories/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         short stories -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/slice-of-life/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         slice of life -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/tech/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         tech -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--              -->
+        <!--                  -->
+        <!--                     <a  -->
+        <!--                         href="/posts/urdu-poetry/"  -->
+        <!--                         class="nav-link " -->
+        <!--                     > -->
+        <!--                         urdu poetry -->
+        <!--                     </a> -->
+        <!--                  -->
+        <!--              -->
+        <!--          -->
+        <!--     </div> -->
+        <!-- </div> -->
+        <div class="footer">
             
         </div>
     </div>
