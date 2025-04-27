@@ -1,30 +1,30 @@
 @use "vars.scss";
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap'); */
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #141414;
+  background-color: #0e120b;
+  /* background-color: #1a1a1a; */
 
   font-family: "Space Mono", monospace;
+  /* font-family: "Inconsolata", monospace; */
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 
   font-size: 1rem;
   margin-left: 2rem;
-  color: #f1f1f1;
+  color: rgba(255, 255, 255, 0.7);
   font-weight: bold;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 
-  @media screen and (max-width: 1200px) {
-    margin-left: 0;
-  }
-
   @media screen and (max-width: 700px) {
     padding: 0;
-    margin: 1rem;
+    margin: 0;
   }
 
   .everything {
@@ -51,18 +51,29 @@ body {
       border: none;
       padding-top: 2px;
       padding-left: 6px;
+
+      @media screen and (max-width: 700px) {
+        padding-left: 1rem;
+      }
     }
   }
 
   .content {
-    width: 100%;
+    /* width: 100%; */
+    width: 50%;
 
     .heading {
+      @media screen and (max-width: 700px) {
+        padding-left: 1rem;
+      }
+
       .header-image {
         margin-bottom: 2rem;
 
         width: 100%;
         height: auto;
+
+        border: 1px solid rgba(255, 255, 255, 0.2);
       }
 
       h1 {
@@ -73,16 +84,29 @@ body {
       }
 
       .date {
-        color: vars.$text_color_light;
+        color: white;
+        opacity: 0.4;
+        /* font-style: italic; */
       }
     }
 
     .main-content {
-      border: 1px solid vars.$theme_green;
+      border: 1px solid rgba(124, 166, 101, 0.5);
       padding: 2rem;
-      width: 50%;
       margin-top: 2rem;
       margin-bottom: 2rem;
+
+      @media screen and (max-width: 1000px) {
+        width: 75%;
+      }
+
+      @media screen and (max-width: 700px) {
+        border: none;
+        border-top: 1px solid vars.$theme_green;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 1rem;
+      }
 
       h1,
       h2,
@@ -94,6 +118,7 @@ body {
 
       p {
         margin-bottom: 1.8rem;
+        line-height: 1.2rem;
       }
 
       a {
@@ -102,7 +127,7 @@ body {
         transition: all 0.5s ease;
 
         &:hover {
-          color: vars.$theme_green;
+          color: #aae28a;
           transition: all 0.1s ease;
         }
       }
@@ -138,11 +163,24 @@ body {
       }
 
       table {
+        @media screen and (max-width: 700px) {
+          width: 100%;
+        }
+
         tr {
+          th {
+            font-style: italic;
+            opacity: 0.5;
+          }
 
           td,
           th {
             padding-right: 3rem;
+            padding-left: 0;
+
+            &:last-child {
+              padding-right: 0;
+            }
 
             a {
               font-weight: bold;

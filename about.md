@@ -1,53 +1,40 @@
 ---
-title: Home - Abdullah Alam
+title: About Me
 layout: base
-stylesheet: "/static/css/index.css"
+permalink: /about/
 ---
 
-```html
-<h1>Hi, I'm Abdullah.</h1>
-<p class="bio">
-  Welcome to my corner of the internet. I like to build simple things, and this
-  website is one of them. Here are some things I write about:
-</p>
+Find me on...
 
-<ul>
-  <li>
-    <a href="#">poetry</a>
-  </li>
-</ul>
-
-<div class="popular-tags">
-  {% for _tag in collections.popularTags %}
-  <a href="/posts/{{ _tag | slugify }}/" class="tag">{{ _tag }}</a>
-  {% endfor %}
-</div>
-
-<h2>Find me on...</h2>
 <div class="contact-list">
-  <a href="https://github.com/theabdullahalam" class="button-link"
-    ><i class="fa-brands fa-github"></i> GitHub</a
+  <a 
+    href="https://github.com/theabdullahalam" 
+    class="button-link"
   >
-  <a href="https://unsplash.com/@theabdullahalam" class="button-link"
-    ><i class="fa-brands fa-unsplash"></i> Unsplash</a
+        <i class="fa-brands fa-github"></i> GitHub
+  </a>
+  <a 
+    href="https://unsplash.com/@theabdullahalam" 
+    class="button-link"
   >
-  <a href="https://www.instagram.com/theabdullahalam/" class="button-link"
-    ><i class="fa-brands fa-instagram"></i> Instagram</a
+        <i class="fa-brands fa-unsplash"></i> Unsplash
+  </a>
+  <a 
+    href="https://www.instagram.com/theabdullahalam/" 
+    class="button-link"
   >
+        <i class="fa-brands fa-instagram"></i> Instagram
+  </a>
   <a
     href="https://bsky.app/profile/theabdullahalam.bsky.social"
     class="button-link"
-    ><i class="fa-brands fa-bluesky"></i> BlueSky</a
   >
-</div>
-<div class="contact-list">
-  <a href="https://sentient-pixels.com/" class="button-link"
-    ><i class="fa-solid fa-mountain-sun"></i> My Travel Blog</a
+        <i class="fa-brands fa-bluesky"></i> BlueSky
+  </a>
+  <a 
+    href="mailto:abdullahalam@protonmail.com" 
+    class="button-link"
   >
+        <i class="fa-solid fa-envelope"></i> Email
+  </a>
 </div>
-<div class="contact-list">
-  <a href="mailto:abdullahalam@protonmail.com" class="button-link"
-    ><i class="fa-solid fa-envelope"></i> Email</a
-  >
-</div>
-```
