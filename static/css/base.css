@@ -62,9 +62,20 @@ body .content {
   /* width: 100%; */
   width: 50%;
 }
+@media screen and (max-width: 1000px) {
+  body .content {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .content {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 700px) {
   body .content .heading {
     padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 body .content .heading .header-image {
@@ -72,6 +83,7 @@ body .content .heading .header-image {
   width: 100%;
   height: auto;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
 }
 body .content .heading h1 {
   font-size: 1rem;

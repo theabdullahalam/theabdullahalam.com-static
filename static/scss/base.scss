@@ -62,9 +62,18 @@ body {
     /* width: 100%; */
     width: 50%;
 
+    @media screen and (max-width: 1000px) {
+      width: 75%;
+    }
+
+    @media screen and (max-width: 700px) {
+      width: 100%;
+    }
+
     .heading {
       @media screen and (max-width: 700px) {
         padding-left: 1rem;
+        padding-right: 1rem;
       }
 
       .header-image {
@@ -74,6 +83,7 @@ body {
         height: auto;
 
         border: 1px solid rgba(255, 255, 255, 0.2);
+        box-sizing: border-box;
       }
 
       h1 {
